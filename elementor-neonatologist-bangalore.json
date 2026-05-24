@@ -1,0 +1,388 @@
+{
+  "version": "0.4",
+  "title": "Best Neonatologist in Bangalore – Dr. Shivashankar Diggikar",
+  "type": "page",
+  "content": [
+    {
+      "id": "8ea5f31",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "transparent"
+      },
+      "elements": [
+        {
+          "id": "ce927b4",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "4d2b74f",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@300;400;500;600;700;800&display=swap\" rel=\"stylesheet\">\n<style id=\"neo-styles\">\n    /* ============================================================\n       DESIGN SYSTEM — drshivdiggikar.com\n       Modern Healthcare · Blue + White · 8px Grid\n    ============================================================ */\n    :root {\n      --blue-950:  #04152d;\n      --blue-900:  #0a2540;\n      --blue-800:  #0d3660;\n      --blue-700:  #1251a3;\n      --blue-600:  #1a6ed8;\n      --blue-500:  #2589ff;\n      --blue-400:  #5aaeff;\n      --blue-300:  #93cbff;\n      --blue-100:  #deeeff;\n      --blue-50:   #f0f8ff;\n      --slate-900: #0f172a;\n      --slate-800: #1e293b;\n      --slate-700: #334155;\n      --slate-600: #475569;\n      --slate-500: #64748b;\n      --slate-400: #94a3b8;\n      --slate-200: #e2e8f0;\n      --slate-100: #f1f5f9;\n      --slate-50:  #f8fafc;\n      --white:     #ffffff;\n      --text-primary:   var(--slate-900);\n      --text-secondary: var(--slate-600);\n      --text-muted:     var(--slate-400);\n      --border:         var(--slate-200);\n      --border-blue:    #c0d9f5;\n      --grad-primary: linear-gradient(135deg, #0a2540 0%, #1251a3 55%, #2589ff 100%);\n      --grad-blue:    linear-gradient(135deg, #1251a3 0%, #2589ff 100%);\n      --grad-subtle:  linear-gradient(180deg, #f0f8ff 0%, #ffffff 100%);\n      --shadow-xs:  0 1px 3px rgba(10,37,64,0.08);\n      --shadow-sm:  0 2px 8px rgba(10,37,64,0.10), 0 1px 3px rgba(10,37,64,0.06);\n      --shadow-md:  0 4px 20px rgba(10,37,64,0.12), 0 2px 6px rgba(10,37,64,0.06);\n      --shadow-lg:  0 12px 40px rgba(10,37,64,0.16), 0 4px 12px rgba(10,37,64,0.08);\n      --r-sm:  8px; --r-md:  12px; --r-lg:  20px; --r-xl:  28px; --r-full: 999px;\n      --sp-1:8px;--sp-2:16px;--sp-3:24px;--sp-4:32px;--sp-5:40px;--sp-6:48px;--sp-7:64px;--sp-8:80px;--sp-9:96px;--sp-10:120px;\n      --transition: all 0.22s cubic-bezier(0.4,0,0.2,1);\n    }\n\n    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }\n    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }\n    body {\n      font-family: 'Inter', system-ui, sans-serif;\n      font-size: 16px;\n      line-height: 1.6;\n      color: var(--text-primary);\n      background: var(--white);\n      -webkit-font-smoothing: antialiased;\n    }\n    img { max-width: 100%; height: auto; display: block; }\n    a { text-decoration: none; color: inherit; }\n    button { font-family: inherit; }\n\n    .container { max-width: 1160px; margin: 0 auto; padding: 0 var(--sp-3); }\n\n    h1, h2, h3 {\n      font-family: 'Bricolage Grotesque', 'Inter', sans-serif;\n      letter-spacing: -0.02em;\n      line-height: 1.1;\n    }\n    h1 { font-size: clamp(36px, 5vw, 60px); font-weight: 800; }\n    h2 { font-size: clamp(26px, 3.5vw, 40px); font-weight: 700; color: var(--slate-900); }\n    h3 { font-size: clamp(16px, 2vw, 20px); font-weight: 700; color: var(--slate-900); }\n    p  { line-height: 1.75; color: var(--text-secondary); }\n    p:not(:last-child) { margin-bottom: 14px; }\n\n    .section-tag {\n      display: inline-flex; align-items: center; gap: 6px;\n      font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;\n      color: var(--blue-600); background: var(--blue-50);\n      border: 1px solid var(--border-blue);\n      padding: 5px 14px; border-radius: var(--r-full); margin-bottom: var(--sp-2);\n    }\n    .section-tag-white {\n      display: inline-flex; align-items: center; gap: 6px;\n      font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;\n      color: rgba(255,255,255,0.9); background: rgba(255,255,255,0.12);\n      border: 1px solid rgba(255,255,255,0.25);\n      padding: 5px 14px; border-radius: var(--r-full); margin-bottom: var(--sp-2);\n    }\n    .section-heading { margin-bottom: var(--sp-2); }\n    .section-sub { font-size: 17px; color: var(--text-secondary); max-width: 600px; line-height: 1.7; margin-bottom: var(--sp-5); }\n\n    /* BUTTONS */\n    .btn {\n      display: inline-flex; align-items: center; justify-content: center; gap: 8px;\n      padding: 14px 28px; border-radius: var(--r-full);\n      font-size: 15px; font-weight: 600; font-family: inherit;\n      cursor: pointer; border: none; transition: var(--transition);\n      white-space: nowrap; text-decoration: none; letter-spacing: -0.01em;\n    }\n    .btn-primary { background: var(--grad-blue); color: var(--white); box-shadow: 0 2px 12px rgba(37,137,255,0.35); }\n    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(37,137,255,0.45); }\n    .btn-white { background: var(--white); color: var(--blue-700); box-shadow: var(--shadow-sm); }\n    .btn-white:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }\n    .btn-ghost {\n      background: rgba(255,255,255,0.12); color: var(--white);\n      border: 1.5px solid rgba(255,255,255,0.35); backdrop-filter: blur(8px);\n    }\n    .btn-ghost:hover { background: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.6); }\n    .btn-outline-blue {\n      background: transparent; color: var(--blue-600);\n      border: 1.5px solid var(--border-blue);\n    }\n    .btn-outline-blue:hover { background: var(--blue-50); border-color: var(--blue-600); }\n\n    /* STICKY MOBILE CTA */\n    .mobile-sticky-cta {\n      display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 900;\n      padding: 12px 16px; background: rgba(255,255,255,0.95);\n      backdrop-filter: blur(12px); border-top: 1px solid var(--border);\n      gap: 10px; box-shadow: 0 -4px 20px rgba(10,37,64,0.12);\n    }\n    .mobile-sticky-cta .btn { flex: 1; padding: 13px 12px; font-size: 14px; }\n\n    /* HERO */\n    .hero { position: relative; display: flex; align-items: center; overflow: hidden; background: var(--blue-900); }\n    .hero-bg { position: absolute; inset: 0; z-index: 0; }\n    .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; opacity: 0.35; }\n    .hero-overlay {\n      position: absolute; inset: 0; z-index: 1;\n      background:\n        radial-gradient(ellipse 80% 60% at 20% 50%, rgba(18,81,163,0.85) 0%, transparent 70%),\n        radial-gradient(ellipse 60% 80% at 80% 20%, rgba(37,137,255,0.3) 0%, transparent 60%),\n        linear-gradient(160deg, rgba(4,21,45,0.95) 0%, rgba(10,37,64,0.75) 100%);\n    }\n    .hero-orb { position: absolute; border-radius: 50%; pointer-events: none; z-index: 1; }\n    .hero-orb-1 { width: 400px; height: 400px; top: -100px; right: -80px; background: radial-gradient(circle, rgba(37,137,255,0.15) 0%, transparent 70%); }\n    .hero-orb-2 { width: 300px; height: 300px; bottom: -60px; left: 10%; background: radial-gradient(circle, rgba(18,81,163,0.2) 0%, transparent 70%); }\n    .hero-inner { position: relative; z-index: 2; width: 100%; padding: 96px 0 72px; }\n    .hero-layout { display: grid; grid-template-columns: 1fr 380px; gap: 64px; align-items: center; }\n    .hero-badge {\n      display: inline-flex; align-items: center; gap: 8px;\n      background: rgba(37,137,255,0.15); border: 1px solid rgba(90,174,255,0.35);\n      border-radius: var(--r-full); padding: 6px 16px 6px 8px;\n      font-size: 12px; font-weight: 600; color: var(--blue-300); letter-spacing: 0.5px; margin-bottom: 24px;\n    }\n    .hero-badge-dot {\n      width: 8px; height: 8px; background: #22c55e; border-radius: 50%;\n      flex-shrink: 0; box-shadow: 0 0 0 3px rgba(34,197,94,0.2);\n    }\n    .hero h1 { color: var(--white); margin-bottom: 20px; font-size: clamp(34px, 4.5vw, 54px); }\n    .hero h1 em { font-style: normal; color: var(--blue-400); }\n    .hero-desc { color: rgba(255,255,255,0.72); font-size: 17px; line-height: 1.7; margin-bottom: 36px; max-width: 520px; }\n    .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 48px; }\n    .hero-trust { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }\n    .hero-trust-item { display: flex; align-items: center; gap: 6px; font-size: 13px; color: rgba(255,255,255,0.65); font-weight: 500; }\n    .hero-trust-divider { width: 1px; height: 16px; background: rgba(255,255,255,0.2); }\n\n    .hero-card {\n      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);\n      border-radius: var(--r-xl); padding: 28px; backdrop-filter: blur(16px);\n    }\n    .hero-card-header {\n      display: flex; align-items: center; gap: 14px;\n      padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); margin-bottom: 20px;\n    }\n    .hero-avatar {\n      width: 56px; height: 56px; background: var(--grad-blue); border-radius: 50%;\n      display: flex; align-items: center; justify-content: center;\n      flex-shrink: 0; box-shadow: 0 4px 16px rgba(37,137,255,0.4); color: white;\n    }\n    .hero-card-name { font-size: 16px; font-weight: 700; color: var(--white); line-height: 1.3; }\n    .hero-card-title { font-size: 12px; color: rgba(255,255,255,0.55); margin-top: 3px; }\n    .cred-list { display: flex; flex-direction: column; gap: 10px; }\n    .cred-item {\n      display: flex; align-items: flex-start; gap: 10px;\n      padding: 10px 12px; background: rgba(255,255,255,0.05);\n      border-radius: var(--r-md); border: 1px solid rgba(255,255,255,0.08); transition: background 0.2s;\n    }\n    .cred-item:hover { background: rgba(255,255,255,0.09); }\n    .cred-item-icon { display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--blue-400); width: 20px; height: 20px; }\n    .cred-item-text { font-size: 13px; color: rgba(255,255,255,0.82); font-weight: 500; line-height: 1.4; }\n    .cred-item-sub { font-size: 11px; color: rgba(255,255,255,0.4); margin-top: 2px; display: block; }\n\n    /* ABOUT */\n    .about-section { padding: var(--sp-10) 0; background: var(--white); }\n    .about-layout { display: grid; grid-template-columns: 1fr 440px; gap: 72px; align-items: start; margin-top: var(--sp-5); }\n    .about-text p { font-size: 16px; line-height: 1.85; color: var(--text-secondary); }\n    .about-text p strong { color: var(--slate-800); }\n    .about-text p:not(:last-child) { margin-bottom: 18px; }\n    .about-highlights { display: flex; flex-direction: column; gap: 12px; margin-top: var(--sp-5); }\n    .highlight-item {\n      display: flex; align-items: center; gap: 12px;\n      padding: 14px 16px; background: var(--blue-50);\n      border: 1px solid var(--border-blue); border-radius: var(--r-md);\n      font-size: 14px; font-weight: 600; color: var(--blue-800); transition: var(--transition);\n    }\n    .highlight-item:hover { background: var(--blue-100); transform: translateX(4px); }\n    .highlight-icon { display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--blue-600); width: 20px; height: 20px; }\n    .about-sidebar { display: flex; flex-direction: column; gap: 16px; position: sticky; top: 32px; }\n    .profile-card {\n      background: var(--grad-primary); border-radius: var(--r-xl);\n      padding: 28px; color: var(--white); position: relative; overflow: hidden;\n    }\n    .profile-card::before {\n      content: ''; position: absolute; top: -40px; right: -40px;\n      width: 180px; height: 180px; border-radius: 50%; background: rgba(255,255,255,0.06); pointer-events: none;\n    }\n    .profile-card::after {\n      content: ''; position: absolute; bottom: -30px; left: -20px;\n      width: 140px; height: 140px; border-radius: 50%; background: rgba(255,255,255,0.04); pointer-events: none;\n    }\n    .profile-name { font-family: 'Bricolage Grotesque', sans-serif; font-size: 20px; font-weight: 700; color: var(--white); margin-bottom: 4px; position: relative; }\n    .profile-title { font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 20px; position: relative; }\n    .profile-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; position: relative; }\n    .profile-stat { background: rgba(255,255,255,0.1); border-radius: var(--r-md); padding: 14px 12px; text-align: center; }\n    .profile-stat-num { font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 800; color: var(--white); line-height: 1; }\n    .profile-stat-label { font-size: 11px; color: rgba(255,255,255,0.6); margin-top: 3px; }\n\n    /* WHY SECTION */\n    .why-section { padding: var(--sp-10) 0; background: var(--grad-primary); position: relative; overflow: hidden; }\n    .why-section::before {\n      content: ''; position: absolute; top: -120px; right: -80px;\n      width: 500px; height: 500px; border-radius: 50%;\n      background: radial-gradient(circle, rgba(37,137,255,0.12) 0%, transparent 70%); pointer-events: none;\n    }\n    .why-section::after {\n      content: ''; position: absolute; bottom: -100px; left: -60px;\n      width: 400px; height: 400px; border-radius: 50%;\n      background: radial-gradient(circle, rgba(18,81,163,0.15) 0%, transparent 70%); pointer-events: none;\n    }\n    .why-section h2 { color: var(--white); }\n    .why-section .section-sub { color: rgba(255,255,255,0.7); }\n    .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: var(--sp-5); position: relative; }\n    .why-card {\n      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);\n      border-radius: var(--r-lg); padding: 28px; backdrop-filter: blur(12px);\n      transition: var(--transition); position: relative; overflow: hidden;\n    }\n    .why-card::before {\n      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;\n      background: linear-gradient(90deg, transparent, rgba(90,174,255,0.5), transparent);\n      opacity: 0; transition: opacity 0.3s;\n    }\n    .why-card:hover { background: rgba(255,255,255,0.1); transform: translateY(-6px); box-shadow: 0 16px 40px rgba(0,0,0,0.25); }\n    .why-card:hover::before { opacity: 1; }\n    .why-icon {\n      width: 48px; height: 48px; background: rgba(37,137,255,0.15);\n      border: 1px solid rgba(90,174,255,0.25); border-radius: var(--r-md);\n      display: flex; align-items: center; justify-content: center;\n      margin-bottom: 18px; color: var(--blue-300);\n    }\n    .why-card h3 { color: var(--white); font-size: 17px; margin-bottom: 10px; }\n    .why-card p { font-size: 14px; color: rgba(255,255,255,0.68); line-height: 1.7; margin: 0; }\n\n    /* CONDITIONS / ACCORDION */\n    .conditions-section { padding: var(--sp-10) 0; background: var(--slate-50); }\n    .conditions-layout { margin-top: var(--sp-5); }\n    .accordion { display: flex; flex-direction: column; gap: 6px; }\n    .accordion-item {\n      background: var(--white); border: 1px solid var(--border);\n      border-radius: var(--r-md); overflow: hidden; transition: box-shadow 0.2s, border-color 0.2s;\n    }\n    .accordion-item:hover { border-color: var(--border-blue); }\n    .accordion-item.is-open { border-color: var(--blue-600); box-shadow: 0 0 0 3px rgba(37,137,255,0.08); }\n    .accordion-header {\n      width: 100%; display: flex; align-items: center; justify-content: space-between;\n      padding: 18px 22px; background: transparent; border: none; cursor: pointer;\n      font-size: 15px; font-weight: 600; color: var(--slate-800); font-family: inherit;\n      transition: var(--transition); gap: 12px; text-align: left;\n    }\n    .accordion-header:hover { background: var(--blue-50); }\n    .acc-left { display: flex; align-items: center; gap: 12px; }\n    .acc-icon {\n      width: 36px; height: 36px; background: var(--blue-50); border-radius: var(--r-sm);\n      display: flex; align-items: center; justify-content: center;\n      flex-shrink: 0; transition: background 0.2s; color: var(--blue-600);\n    }\n    .accordion-item.is-open .acc-icon { background: var(--blue-100); }\n    .acc-arrow {\n      width: 28px; height: 28px; border-radius: 50%; background: var(--slate-100);\n      display: flex; align-items: center; justify-content: center;\n      flex-shrink: 0; transition: var(--transition); color: var(--slate-500);\n      font-size: 18px; font-weight: 300; line-height: 1;\n    }\n    .accordion-item.is-open .acc-arrow { background: var(--blue-600); color: var(--white); transform: rotate(45deg); }\n    .accordion-body { max-height: 0; overflow: hidden; transition: max-height 0.38s cubic-bezier(0.4,0,0.2,1); }\n    .accordion-body.open { max-height: 600px; }\n    .accordion-body ul { list-style: none; padding: 8px 22px 22px 70px; display: flex; flex-direction: column; gap: 8px; }\n    .accordion-body ul li { position: relative; font-size: 14.5px; color: var(--text-secondary); padding-left: 18px; line-height: 1.6; }\n    .accordion-body ul li::before { content: ''; position: absolute; left: 0; top: 9px; width: 6px; height: 6px; background: var(--blue-400); border-radius: 50%; }\n    .internal-links-block {\n      margin-top: 24px; padding: 18px 22px; background: var(--white);\n      border-radius: var(--r-md); border: 1px solid var(--border-blue); border-left: 4px solid var(--blue-600);\n    }\n    .internal-links-block p { font-size: 14px; color: var(--text-secondary); margin: 0; }\n    .internal-links-block a { color: var(--blue-600); font-weight: 600; }\n\n    /* LOCATION */\n    .location-section { padding: var(--sp-10) 0; background: var(--white); }\n    .location-layout { margin-top: var(--sp-5); display: grid; grid-template-columns: 1fr 340px; gap: 28px; align-items: start; }\n    .location-main-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--r-xl); overflow: hidden; box-shadow: var(--shadow-md); }\n    .location-card-header { padding: 28px 28px 20px; background: linear-gradient(135deg, var(--blue-50) 0%, var(--white) 100%); border-bottom: 1px solid var(--border); }\n    .location-badge {\n      display: inline-flex; align-items: center; gap: 6px;\n      font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;\n      background: var(--blue-600); color: var(--white);\n      padding: 4px 12px; border-radius: var(--r-full); margin-bottom: 12px;\n    }\n    .location-title { font-size: 18px; font-weight: 700; color: var(--slate-900); }\n    .location-card-body { padding: 24px 28px; }\n    .location-details { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px; }\n    .loc-detail-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 5px; }\n    .loc-detail-value { font-size: 14.5px; color: var(--slate-700); line-height: 1.5; margin: 0; }\n    .areas-list {\n      padding: 14px 18px; background: var(--slate-50); border-radius: var(--r-md);\n      font-size: 13px; color: var(--text-secondary); line-height: 1.7; margin-bottom: 20px; border: 1px solid var(--border);\n    }\n    .location-cta-btn {\n      display: inline-flex; align-items: center; gap: 8px; padding: 13px 28px;\n      background: var(--grad-blue); color: var(--white); border-radius: var(--r-full);\n      font-size: 15px; font-weight: 600; transition: var(--transition); box-shadow: 0 2px 12px rgba(37,137,255,0.35);\n    }\n    .location-cta-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(37,137,255,0.45); }\n    .contact-sidebar { display: flex; flex-direction: column; gap: 16px; }\n    .contact-card { background: var(--grad-primary); border-radius: var(--r-xl); padding: 24px; color: var(--white); position: relative; overflow: hidden; }\n    .contact-card::before { content: ''; position: absolute; top: -30px; right: -30px; width: 150px; height: 150px; border-radius: 50%; background: rgba(255,255,255,0.05); }\n    .contact-card h3 { font-size: 16px; font-weight: 700; color: var(--white); margin-bottom: 16px; position: relative; }\n    .contact-link-row {\n      display: flex; align-items: center; gap: 10px; padding: 12px 14px;\n      background: rgba(255,255,255,0.08); border-radius: var(--r-md);\n      font-size: 14.5px; font-weight: 600; color: rgba(255,255,255,0.9);\n      margin-bottom: 8px; text-decoration: none; transition: background 0.2s; position: relative;\n    }\n    .contact-link-row:last-of-type { margin-bottom: 12px; }\n    .contact-link-row:hover { background: rgba(255,255,255,0.14); }\n    .same-day-note { font-size: 12.5px; color: rgba(255,255,255,0.65); position: relative; font-style: italic; margin: 0; }\n    .hours-card { background: var(--slate-50); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 20px; }\n    .hours-card h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 12px; }\n    .hours-row { display: flex; justify-content: space-between; align-items: center; font-size: 14px; padding: 8px 0; border-bottom: 1px solid var(--border); color: var(--slate-700); }\n    .hours-row:last-child { border-bottom: none; }\n    .hours-row strong { color: var(--slate-900); font-weight: 600; }\n    .hours-open { font-size: 11px; font-weight: 700; color: #16a34a; background: #dcfce7; padding: 2px 8px; border-radius: var(--r-full); }\n\n    /* FAQ */\n    .faq-section { padding: var(--sp-10) 0; background: var(--white); }\n    .faq-layout { display: grid; grid-template-columns: 300px 1fr; gap: 64px; align-items: start; margin-top: var(--sp-5); }\n    .faq-sidebar { position: sticky; top: 40px; }\n    .faq-sidebar-card { background: var(--grad-primary); border-radius: var(--r-xl); padding: 28px; color: var(--white); position: relative; overflow: hidden; }\n    .faq-sidebar-card::before { content: ''; position: absolute; top: -40px; right: -40px; width: 160px; height: 160px; border-radius: 50%; background: rgba(255,255,255,0.06); }\n    .faq-sidebar-card h3 { color: var(--white); font-size: 18px; margin-bottom: 10px; position: relative; }\n    .faq-sidebar-card p { font-size: 14px; color: rgba(255,255,255,0.7); line-height: 1.65; margin-bottom: 24px; position: relative; }\n    .faq-sidebar-card .btn { width: 100%; justify-content: center; position: relative; }\n    .faq-list { display: flex; flex-direction: column; gap: 4px; }\n    .faq-item { border: 1px solid var(--border); border-radius: var(--r-md); overflow: hidden; transition: border-color 0.2s, box-shadow 0.2s; }\n    .faq-item:hover { border-color: var(--border-blue); }\n    .faq-item.is-open { border-color: var(--blue-600); box-shadow: 0 0 0 3px rgba(37,137,255,0.08); }\n    .faq-question {\n      width: 100%; display: flex; align-items: center; justify-content: space-between;\n      padding: 18px 20px; background: var(--white); border: none; cursor: pointer;\n      font-size: 15px; font-weight: 600; color: var(--slate-800); font-family: inherit;\n      text-align: left; gap: 16px; transition: background 0.2s; line-height: 1.4;\n    }\n    .faq-question:hover { background: var(--blue-50); }\n    .faq-q-icon {\n      width: 28px; height: 28px; border-radius: 50%; background: var(--slate-100);\n      display: flex; align-items: center; justify-content: center; flex-shrink: 0;\n      transition: var(--transition); color: var(--slate-500); font-size: 18px; font-weight: 300; line-height: 1;\n    }\n    .faq-item.is-open .faq-q-icon { background: var(--blue-600); color: var(--white); transform: rotate(45deg); }\n    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.38s cubic-bezier(0.4,0,0.2,1); }\n    .faq-answer.open { max-height: 600px; }\n    .faq-answer p { padding: 0 20px 20px; font-size: 14.5px; line-height: 1.75; color: var(--text-secondary); margin: 0; }\n    .faq-answer a { color: var(--blue-600); font-weight: 600; }\n\n    /* FINAL CTA */\n    .final-cta { padding: var(--sp-10) 0; background: var(--grad-primary); text-align: center; position: relative; overflow: hidden; }\n    .final-cta::before { content: ''; position: absolute; top: -100px; right: -100px; width: 500px; height: 500px; border-radius: 50%; background: radial-gradient(circle, rgba(37,137,255,0.12) 0%, transparent 70%); pointer-events: none; }\n    .final-cta::after { content: ''; position: absolute; bottom: -80px; left: -80px; width: 400px; height: 400px; border-radius: 50%; background: radial-gradient(circle, rgba(18,81,163,0.15) 0%, transparent 70%); pointer-events: none; }\n    .cta-inner { position: relative; max-width: 700px; margin: 0 auto; }\n    .final-cta h2 { color: var(--white); margin-bottom: 16px; }\n    .cta-desc { color: rgba(255,255,255,0.75); font-size: 17px; line-height: 1.75; margin-bottom: 40px; }\n    .cta-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 48px; }\n    .cta-trust { display: flex; justify-content: center; flex-wrap: wrap; gap: 24px; margin-bottom: 24px; }\n    .cta-trust-item { display: flex; align-items: center; gap: 8px; color: rgba(255,255,255,0.8); font-size: 14px; font-weight: 500; }\n    .cta-trust-icon { display: flex; align-items: center; justify-content: center; color: var(--blue-300); flex-shrink: 0; }\n    .cta-areas { font-size: 12.5px; color: rgba(255,255,255,0.4); }\n\n    /* SCROLL REVEAL */\n    .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.5s ease, transform 0.5s ease; }\n    .reveal.visible { opacity: 1; transform: translateY(0); }\n\n    /* RESPONSIVE */\n    @media (max-width: 1024px) {\n      .hero-layout { grid-template-columns: 1fr; max-width: 640px; }\n      .hero-card { display: none; }\n      .about-layout { grid-template-columns: 1fr; gap: 48px; }\n      .about-sidebar { position: static; }\n      .why-grid { grid-template-columns: repeat(2, 1fr); }\n      .location-layout { grid-template-columns: 1fr; }\n      .faq-layout { grid-template-columns: 1fr; }\n      .faq-sidebar { position: static; }\n    }\n    @media (max-width: 767px) {\n      :root { --sp-10: 72px; --sp-8: 56px; }\n      .hero-inner { padding: 80px 0 100px; }\n      .hero h1 { font-size: 32px; }\n      .hero-desc { font-size: 15px; }\n      .hero-ctas { flex-direction: column; }\n      .hero-ctas .btn { width: 100%; justify-content: center; }\n      .hero-trust { gap: 10px; }\n      .hero-trust-divider { display: none; }\n      .why-grid { grid-template-columns: 1fr; gap: 12px; }\n      .why-card { padding: 22px; }\n      .accordion-header { padding: 15px 16px; font-size: 14px; }\n      .accordion-body ul { padding: 8px 16px 18px 52px; }\n      .location-details { grid-template-columns: 1fr; gap: 14px; }\n      .location-card-header { padding: 20px 20px 16px; }\n      .location-card-body { padding: 18px 20px; }\n      .faq-question { padding: 15px 16px; font-size: 14px; }\n      .faq-answer p { padding: 0 16px 18px; font-size: 14px; }\n      .cta-btns { flex-direction: column; align-items: center; }\n      .cta-btns .btn { width: 100%; max-width: 340px; }\n      .cta-trust { gap: 14px; }\n      .mobile-sticky-cta { display: flex; }\n      .about-highlights { gap: 8px; }\n      .profile-stats { gap: 8px; }\n    }\n    @media (max-width: 480px) {\n      .hero h1 { font-size: 28px; }\n      h2 { font-size: 24px; }\n    }\n  </style>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6d99328",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0a2540"
+      },
+      "elements": [
+        {
+          "id": "6dd3913",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "f100b66",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"hero\" id=\"hero\"><div class=\"hero-bg\">\n      <img src=\"https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=1600\" alt=\"Neonatologist Bangalore NICU Dr. Shivashankar Diggikar\" loading=\"eager\" />\n    </div>\n    <div class=\"hero-overlay\"></div>\n    <div class=\"hero-orb hero-orb-1\"></div>\n    <div class=\"hero-orb hero-orb-2\"></div>\n\n    <div class=\"hero-inner\">\n      <div class=\"container\">\n        <div class=\"hero-layout\">\n          <div class=\"hero-left\">\n            <div class=\"hero-badge\">\n              <span class=\"hero-badge-dot\"></span>\n              Medicover Hospital, Whitefield, Bangalore\n            </div>\n            <h1>Best Neonatologist in Bangalore<br><em>— Dr. Shivashankar Diggikar</em></h1>\n            <p class=\"hero-desc\">\n              FRCPCH Certified &nbsp;·&nbsp; 15+ Years in Neonatal Medicine<br>\n              Medicover Hospital, Whitefield, Bangalore\n            </p>\n            <div class=\"hero-ctas\">\n              <a href=\"https://www.medicoverhospitals.in/doctors/dr-shivashankar-diggikar\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-primary\">\n                <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"/><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"/></svg>\n                Book Consultation\n              </a>\n              <a href=\"tel:+919133555335\" class=\"btn btn-ghost\">\n                <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.09-1.09a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>\n                +91-9133555335\n              </a>\n            </div>\n            <div class=\"hero-trust\">\n              <span class=\"hero-trust-item\">\n                <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n                FRCPCH (UK) Certified\n              </span>\n              <span class=\"hero-trust-divider\"></span>\n              <span class=\"hero-trust-item\">\n                <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n                15+ Years NICU Experience\n              </span>\n              <span class=\"hero-trust-divider\"></span>\n              <span class=\"hero-trust-item\">\n                <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n                Level III NICU\n              </span>\n            </div>\n          </div>\n\n          <div class=\"hero-card\">\n            <div class=\"hero-card-header\">\n              <div class=\"hero-avatar\">\n                <svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>\n              </div>\n              <div>\n                <div class=\"hero-card-name\">Dr. Shivashankar Diggikar</div>\n                <div class=\"hero-card-title\">Neonatologist · FRCPCH</div>\n              </div>\n            </div>\n            <div class=\"cred-list\">\n              <div class=\"cred-item\">\n                <span class=\"cred-item-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"8\" r=\"6\"/><path d=\"M15.477 12.89L17 22l-5-3-5 3 1.523-9.11\"/></svg></span>\n                <div class=\"cred-item-text\">FRCPCH<span class=\"cred-item-sub\">Fellow of the Royal College of Paediatrics &amp; Child Health, UK</span></div>\n              </div>\n              <div class=\"cred-item\">\n                <span class=\"cred-item-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/></svg></span>\n                <div class=\"cred-item-text\">Postgraduate Neonatology<span class=\"cred-item-sub\">Advanced subspecialty training</span></div>\n              </div>\n              <div class=\"cred-item\">\n                <span class=\"cred-item-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/><polyline points=\"22 4 12 14.01 9 11.01\"/></svg></span>\n                <div class=\"cred-item-text\">NRP Trained<span class=\"cred-item-sub\">Neonatal Resuscitation Program</span></div>\n              </div>\n              <div class=\"cred-item\">\n                <span class=\"cred-item-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polyline points=\"12 6 12 12 16 14\"/></svg></span>\n                <div class=\"cred-item-text\">Therapeutic Hypothermia<span class=\"cred-item-sub\">Advanced training in HIE cooling protocols</span></div>\n              </div>\n              <div class=\"cred-item\">\n                <span class=\"cred-item-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><polyline points=\"9 22 9 12 15 12 15 22\"/></svg></span>\n                <div class=\"cred-item-text\">Level III NICU<span class=\"cred-item-sub\">Medicover Hospital, Whitefield</span></div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "70f1b48",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "9bcd0d3",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "34b873b",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"about-section\" id=\"about\"><div class=\"container\">\n      <div class=\"section-tag\">About the Specialist</div>\n      <h2 class=\"section-heading\">About Dr. Shivashankar Diggikar</h2>\n      <div class=\"about-layout\">\n        <div class=\"about-text\">\n          <p>Dr. Shivashankar Diggikar is a <strong>Neonatologist based in Whitefield, Bangalore</strong>, holding the <strong>FRCPCH</strong> — Fellow of the Royal College of Paediatrics and Child Health, United Kingdom. With over <strong>15 years of dedicated practice in neonatal medicine</strong>, he specializes in the care of premature infants, critically ill newborns, and babies requiring intensive NICU support.</p>\n          <p>He currently practices at <strong>Medicover Hospital, Whitefield</strong> — one of Bangalore's well-equipped hospitals for newborn care — where he leads the neonatal team and manages complex cases that require subspecialty intervention.</p>\n          <p>His clinical approach is straightforward: <strong>accurate diagnosis, evidence-based treatment, and keeping parents fully informed at every step.</strong></p>\n          <div class=\"about-highlights\">\n            <div class=\"highlight-item\">\n              <span class=\"highlight-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"8\" r=\"6\"/><path d=\"M15.477 12.89L17 22l-5-3-5 3 1.523-9.11\"/></svg></span>\n              FRCPCH — Fellow of the Royal College of Paediatrics &amp; Child Health, UK\n            </div>\n            <div class=\"highlight-item\">\n              <span class=\"highlight-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/><polyline points=\"22 4 12 14.01 9 11.01\"/></svg></span>\n              Trained in Neonatal Resuscitation Program (NRP)\n            </div>\n            <div class=\"highlight-item\">\n              <span class=\"highlight-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polyline points=\"12 6 12 12 16 14\"/></svg></span>\n              Advanced training in Therapeutic Hypothermia protocols\n            </div>\n            <div class=\"highlight-item\">\n              <span class=\"highlight-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><polyline points=\"9 22 9 12 15 12 15 22\"/></svg></span>\n              Regular participation in national and international neonatology conferences and CME\n            </div>\n          </div>\n        </div>\n        <div class=\"about-sidebar\">\n          <div class=\"profile-card\">\n            <div class=\"profile-name\">Dr. Shivashankar Diggikar</div>\n            <div class=\"profile-title\">FRCPCH · Neonatologist</div>\n            <div class=\"profile-stats\">\n              <div class=\"profile-stat\"><div class=\"profile-stat-num\">15+</div><div class=\"profile-stat-label\">Years Exp.</div></div>\n              <div class=\"profile-stat\"><div class=\"profile-stat-num\">III</div><div class=\"profile-stat-label\">NICU Level</div></div>\n              <div class=\"profile-stat\"><div class=\"profile-stat-num\">UK</div><div class=\"profile-stat-label\">Certified</div></div>\n              <div class=\"profile-stat\"><div class=\"profile-stat-num\">24/7</div><div class=\"profile-stat-label\">NICU Cover</div></div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6bdf697",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#f8fafc"
+      },
+      "elements": [
+        {
+          "id": "5c2e8d3",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "3cedd57",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"conditions-section\" id=\"conditions\"><div class=\"container\">\n      <div class=\"section-tag\">Conditions Treated</div>\n      <h2 class=\"section-heading\">What Dr. Diggikar Treats</h2>\n      <p class=\"section-sub\">Dr. Diggikar manages the full range of newborn conditions — from common issues like jaundice to complex neonatal emergencies.</p>\n      <div class=\"conditions-layout\">\n        <div class=\"accordion\" id=\"accordion\">\n\n          <div class=\"accordion-item\">\n            <button class=\"accordion-header\" aria-expanded=\"false\">\n              <span class=\"acc-left\">\n                <span class=\"acc-icon\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 12h.01M15 12h.01M10 16c.667.667 2.333.667 3 0M12 2a7 7 0 0 1 7 7c0 5.25-3.5 8-7 8s-7-2.75-7-8a7 7 0 0 1 7-7z\"/></svg></span>\n                <span>Common Newborn Conditions</span>\n              </span>\n              <span class=\"acc-arrow\">+</span>\n            </button>\n            <div class=\"accordion-body\">\n              <ul>\n                <li>Neonatal Jaundice (Hyperbilirubinemia) and Phototherapy management</li>\n                <li>Newborn feeding difficulties and lactation support</li>\n                <li>Low birth weight and small-for-gestational-age infants</li>\n                <li>Neonatal hypoglycemia (low blood sugar in newborns)</li>\n                <li>Newborn infections and fever in the first month of life</li>\n              </ul>\n            </div>\n          </div>\n\n          <div class=\"accordion-item\">\n            <button class=\"accordion-header\" aria-expanded=\"false\">\n              <span class=\"acc-left\">\n                <span class=\"acc-icon\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3\"/><path d=\"M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4\"/><circle cx=\"20\" cy=\"10\" r=\"2\"/></svg></span>\n                <span>Serious and Critical Neonatal Conditions</span>\n              </span>\n              <span class=\"acc-arrow\">+</span>\n            </button>\n            <div class=\"accordion-body\">\n              <ul>\n                <li>Premature birth management (babies born before 37 weeks)</li>\n                <li>Neonatal Sepsis and Meningitis</li>\n                <li>Birth Asphyxia and Hypoxic-Ischemic Encephalopathy (HIE)</li>\n                <li>Respiratory Distress Syndrome (RDS)</li>\n                <li>Meconium Aspiration Syndrome (MAS)</li>\n                <li>Transient Tachypnea of the Newborn (TTN)</li>\n                <li>Neonatal Seizures</li>\n                <li>Intraventricular Hemorrhage (IVH)</li>\n                <li>Necrotizing Enterocolitis (NEC)</li>\n                <li>Patent Ductus Arteriosus (PDA)</li>\n                <li>Retinopathy of Prematurity (ROP) screening and management</li>\n                <li>Congenital Infections including TORCH screening</li>\n                <li>Congenital Hypothyroidism</li>\n                <li>Inborn Errors of Metabolism (IEM) — newborn metabolic screening</li>\n              </ul>\n            </div>\n          </div>\n\n          <div class=\"accordion-item\">\n            <button class=\"accordion-header\" aria-expanded=\"false\">\n              <span class=\"acc-left\">\n                <span class=\"acc-icon\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"22 7 13.5 15.5 8.5 10.5 2 17\"/><polyline points=\"16 7 22 7 22 13\"/></svg></span>\n                <span>High-Risk Newborn Follow-Up</span>\n              </span>\n              <span class=\"acc-arrow\">+</span>\n            </button>\n            <div class=\"accordion-body\">\n              <ul>\n                <li>Babies discharged from the NICU often need structured follow-up to monitor growth, development, hearing, and vision.</li>\n                <li>Dr. Diggikar offers <strong>dedicated high-risk newborn follow-up clinics</strong> to track progress and address developmental concerns early.</li>\n                <li>Structured monitoring of growth, developmental milestones, hearing, and vision post-discharge.</li>\n                <li>Early intervention referrals for babies showing signs of developmental delay.</li>\n              </ul>\n            </div>\n          </div>\n\n        </div>\n        <div class=\"internal-links-block\">\n          <p>For general pediatric care for children 0–18 years, visit our <a href=\"/index.html\">Pediatrician in Whitefield Bangalore</a> page. For <a href=\"/premature-baby-care\">premature infant care</a> guidance or <a href=\"/antenatal-neonatal-counseling\">antenatal counseling</a> before a high-risk delivery, speak directly with Dr. Diggikar's team at +91-9133555335.</p>\n        </div>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "954687c",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "6552a62",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "628ebcd",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"location-section\" id=\"location\"><div class=\"container\">\n      <div class=\"section-tag\">Serving Families Across Bangalore</div>\n      <h2 class=\"section-heading\">Serving Families Across Bangalore</h2>\n      <p class=\"section-sub\">Dr. Diggikar's clinic at Medicover Hospital Whitefield is a practical choice for families across East and Central Bangalore.</p>\n      <div class=\"location-layout\">\n        <div class=\"location-main-card\">\n          <div class=\"location-card-header\">\n            <div class=\"location-badge\">Book a Consultation</div>\n            <h3 class=\"location-title\">Medicover Hospital, Whitefield, Bangalore</h3>\n          </div>\n          <div class=\"location-card-body\">\n            <div class=\"location-details\">\n              <div>\n                <div class=\"loc-detail-label\">Hospital</div>\n                <p class=\"loc-detail-value\">Medicover Hospital<br>Whitefield, Bengaluru, Karnataka — 560066</p>\n              </div>\n              <div>\n                <div class=\"loc-detail-label\">Contact</div>\n                <p class=\"loc-detail-value\">Phone: +91-9133555335<br>drshivdiggikar.com</p>\n              </div>\n            </div>\n            <div class=\"loc-detail-label\" style=\"margin-bottom:8px;\">Parents Travel From</div>\n            <div class=\"areas-list\">\n              Whitefield &nbsp;|&nbsp; ITPL &nbsp;|&nbsp; Marathahalli &nbsp;|&nbsp; KR Puram &nbsp;|&nbsp; Varthur &nbsp;|&nbsp; Kadugodi &nbsp;|&nbsp; Brookefield &nbsp;|&nbsp; Hoodi &nbsp;|&nbsp; Mahadevapura &nbsp;|&nbsp; Bellandur &nbsp;|&nbsp; Sarjapur Road &nbsp;|&nbsp; Old Madras Road &nbsp;|&nbsp; Doddanekundi\n            </div>\n            <p style=\"font-size:14px;color:#475569;margin-bottom:20px;line-height:1.7;\">\n              If you are looking for a <strong>neonatologist near Whitefield</strong>, a <strong>NICU specialist in East Bangalore</strong>, or the <strong>best neonatologist in Bangalore</strong> with international credentials — Dr. Diggikar's clinic is within reach.\n            </p>\n            <a href=\"https://www.medicoverhospitals.in/doctors/dr-shivashankar-diggikar\" target=\"_blank\" rel=\"noopener\" class=\"location-cta-btn\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\"/><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"/><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"/></svg>\n              Book Consultation at Medicover Whitefield\n            </a>\n          </div>\n        </div>\n        <div class=\"contact-sidebar\">\n          <div class=\"contact-card\">\n            <h3>Book a Consultation</h3>\n            <a href=\"tel:+919133555335\" class=\"contact-link-row\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.09-1.09a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>\n              +91-9133555335\n            </a>\n            <a href=\"https://drshivdiggikar.com\" target=\"_blank\" rel=\"noopener\" class=\"contact-link-row\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><path d=\"M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"/></svg>\n              drshivdiggikar.com\n            </a>\n            <p class=\"same-day-note\">&#10003; Same-day consultations for urgent neonatal concerns</p>\n          </div>\n          <div class=\"hours-card\">\n            <h4>Consultation Types</h4>\n            <div class=\"hours-row\"><strong>Antenatal Counseling</strong><span class=\"hours-open\">Available</span></div>\n            <div class=\"hours-row\"><strong>Post-NICU Follow-Up</strong><span class=\"hours-open\">Available</span></div>\n            <div class=\"hours-row\"><strong>Second Opinion</strong><span class=\"hours-open\">Available</span></div>\n            <div class=\"hours-row\"><strong>Urgent Neonatal</strong><span class=\"hours-open\">Same Day</span></div>\n          </div>\n        </div>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a19f9ad",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "c7bd6e7",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "c6a62de",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"faq-section\" id=\"faq\"><div class=\"container\">\n      <div class=\"section-tag\">FAQ</div>\n      <h2 class=\"section-heading\">Frequently Asked Questions</h2>\n      <div class=\"faq-layout\">\n        <div class=\"faq-sidebar\">\n          <div class=\"faq-sidebar-card\">\n            <h3>Have more questions?</h3>\n            <p>Call us directly or book a consultation — Dr. Diggikar's team is available to answer all your neonatal care concerns.</p>\n            <a href=\"tel:+919133555335\" class=\"btn btn-white\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.09-1.09a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>\n              Call Now\n            </a>\n          </div>\n        </div>\n        <div class=\"faq-list\" id=\"faqList\">\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">What is a neonatologist and how is it different from a pediatrician?<span class=\"faq-q-icon\">+</span></button>\n            <div class=\"faq-answer\"><p>A neonatologist is a pediatric subspecialist trained specifically in newborn medicine — particularly premature, critically ill, or medically complex newborns. A pediatrician provides general healthcare to children from birth through adolescence. Neonatologists typically practice in NICU settings and manage the first 28 days of life and beyond for premature infants.</p></div>\n          </div>\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">When should I see a neonatologist in Bangalore?<span class=\"faq-q-icon\">+</span></button>\n            <div class=\"faq-answer\"><p>You should consult a neonatologist if your baby is born prematurely, has difficulty breathing at birth, shows signs of infection or severe jaundice, requires NICU admission, was diagnosed with a congenital condition before or after birth, or if your pregnancy is considered high-risk and you want antenatal counseling.</p></div>\n          </div>\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">Where does Dr. Diggikar practice in Bangalore?<span class=\"faq-q-icon\">+</span></button>\n            <div class=\"faq-answer\"><p>Dr. Diggikar practices at Medicover Hospital, Whitefield, Bangalore. The hospital has a Level III NICU and is accessible from most parts of East and Central Bangalore.</p></div>\n          </div>\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">What qualifications does Dr. Diggikar hold?<span class=\"faq-q-icon\">+</span></button>\n            <div class=\"faq-answer\"><p>Dr. Diggikar holds the FRCPCH — Fellow of the Royal College of Paediatrics and Child Health, UK. He has over 15 years of specialized clinical experience in neonatology and NICU care.</p></div>\n          </div>\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">Does Dr. Diggikar offer same-day appointments?<span class=\"faq-q-icon\">+</span></button>\n            <div class=\"faq-answer\"><p>Yes. Same-day consultations are available for urgent neonatal concerns. Call +91-9133555335 to confirm availability.</p></div>\n          </div>\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">What level is the NICU at Medicover Whitefield?<span class=\"faq-q-icon\">+</span></button>\n            <div class=\"faq-answer\"><p>The NICU at Medicover Hospital Whitefield is a Level III unit — the highest level of neonatal intensive care, equipped to manage extreme prematurity, mechanical ventilation, therapeutic hypothermia, and complex surgical neonatal cases.</p></div>\n          </div>\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">Does Dr. Diggikar offer antenatal counseling for high-risk pregnancies?<span class=\"faq-q-icon\">+</span></button>\n            <div class=\"faq-answer\"><p>Yes. If you are expecting and have been identified as a high-risk pregnancy — including multiple pregnancies, fetal anomalies, or expected preterm delivery — Dr. Diggikar offers antenatal neonatal counseling to help you understand what to expect and prepare for your baby's care.</p></div>\n          </div>\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">How do I book an appointment with Dr. Diggikar?<span class=\"faq-q-icon\">+</span></button>\n            <div class=\"faq-answer\"><p>Call +91-9133555335 or visit drshivdiggikar.com. Walk-ins are also accepted at Medicover Hospital, Whitefield, Bangalore.</p></div>\n          </div>\n        </div>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8283606",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "transparent"
+      },
+      "elements": [
+        {
+          "id": "e72adac",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "123a1e3",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"mobile-sticky-cta\" id=\"neo-mobile-cta\">\n  <a href=\"tel:+919133555335\" class=\"btn btn-outline-blue\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.09-1.09a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>Call</a>\n  <a href=\"https://www.medicoverhospitals.in/doctors/dr-shivashankar-diggikar\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-primary\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\"/><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"/><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"/></svg>Book</a>\n</div>\n\n<script>\n\n    // ACCORDION\n    document.querySelectorAll('.accordion-header').forEach(btn => {\n      btn.addEventListener('click', () => {\n        const item = btn.closest('.accordion-item')\n        const body = btn.nextElementSibling\n        const isOpen = item.classList.contains('is-open')\n        const accordion = item.closest('.accordion')\n        accordion.querySelectorAll('.accordion-item').forEach(el => {\n          el.classList.remove('is-open')\n          el.querySelector('.accordion-header').setAttribute('aria-expanded', 'false')\n          el.querySelector('.accordion-body').classList.remove('open')\n        })\n        if (!isOpen) {\n          item.classList.add('is-open')\n          btn.setAttribute('aria-expanded', 'true')\n          body.classList.add('open')\n        }\n      })\n    })\n\n    // FAQ\n    document.querySelectorAll('.faq-question').forEach(btn => {\n      btn.addEventListener('click', () => {\n        const item = btn.closest('.faq-item')\n        const answer = btn.nextElementSibling\n        const isOpen = item.classList.contains('is-open')\n        document.querySelectorAll('.faq-item').forEach(el => {\n          el.classList.remove('is-open')\n          el.querySelector('.faq-question').setAttribute('aria-expanded', 'false')\n          el.querySelector('.faq-answer').classList.remove('open')\n        })\n        if (!isOpen) {\n          item.classList.add('is-open')\n          btn.setAttribute('aria-expanded', 'true')\n          answer.classList.add('open')\n        }\n      })\n    })\n\n    // SCROLL REVEAL\n    const revealObserver = new IntersectionObserver(entries => {\n      entries.forEach(entry => {\n        if (entry.isIntersecting) {\n          entry.target.classList.add('visible')\n          revealObserver.unobserve(entry.target)\n        }\n      })\n    }, { threshold: 0.08 })\n\n    document.querySelectorAll('.why-card, .stat-item, .location-main-card, .faq-item, .highlight-item, .cred-item').forEach(el => {\n      el.classList.add('reveal')\n      revealObserver.observe(el)\n    })\n  \n</script>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "custom_css": ""
+  }
+}
