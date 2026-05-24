@@ -130,7 +130,7 @@ template = {
 template["content"] = [s for s in template["content"] if s is not None]
 
 # Write output
-output_path = "/home/claude/repo/elementor-neonatologist-bangalore.json"
+output_path = "elementor-neonatologist-bangalore.json"
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(template, f, ensure_ascii=False, indent=2)
 

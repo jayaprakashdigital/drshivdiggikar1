@@ -977,7 +977,7 @@ template = {
     }
 }
 
-output_path = "/home/claude/repo/elementor-template.json"
+output_path = "elementor-template.json"
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(template, f, ensure_ascii=False, indent=2)
 
