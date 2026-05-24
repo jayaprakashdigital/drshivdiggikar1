@@ -1,0 +1,550 @@
+{
+  "version": "0.4",
+  "title": "Top Pediatrician in Whitefield Bangalore – Dr. Shivashankar Diggikar",
+  "type": "page",
+  "content": [
+    {
+      "id": "5fe0ea7",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "transparent"
+      },
+      "elements": [
+        {
+          "id": "4572d0d",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "ade2b82",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@300;400;500;600;700;800&display=swap\" rel=\"stylesheet\">\n<style id=\"whitefield-styles\">/* vietnamese */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 400;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"e0ee709f-3a14-4c65-a892-28c8de3608c9\") format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 400;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"7b733ab7-bfa6-44ba-9e8a-2ef13e378ed1\") format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 400;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"8771b45f-e226-4a03-9a7e-0954d76e5fad\") format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 500;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"e0ee709f-3a14-4c65-a892-28c8de3608c9\") format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 500;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"7b733ab7-bfa6-44ba-9e8a-2ef13e378ed1\") format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 500;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"8771b45f-e226-4a03-9a7e-0954d76e5fad\") format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 600;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"e0ee709f-3a14-4c65-a892-28c8de3608c9\") format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 600;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"7b733ab7-bfa6-44ba-9e8a-2ef13e378ed1\") format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 600;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"8771b45f-e226-4a03-9a7e-0954d76e5fad\") format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 700;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"e0ee709f-3a14-4c65-a892-28c8de3608c9\") format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 700;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"7b733ab7-bfa6-44ba-9e8a-2ef13e378ed1\") format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 700;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"8771b45f-e226-4a03-9a7e-0954d76e5fad\") format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 800;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"e0ee709f-3a14-4c65-a892-28c8de3608c9\") format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 800;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"7b733ab7-bfa6-44ba-9e8a-2ef13e378ed1\") format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Bricolage Grotesque';\n  font-style: normal;\n  font-weight: 800;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(\"8771b45f-e226-4a03-9a7e-0954d76e5fad\") format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(\"8d754576-c182-4081-a437-6d1ddd4b35da\") format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(\"862704ae-a09d-47c8-b03b-8e7c06abab2e\") format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(\"c733d8f7-e56e-49fa-af47-8f227557aa3c\") format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(\"46744887-27f9-40e3-b242-9ee2b3a6457d\") format('woff2');\n  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(\"52df7093-a3d1-4f6a-b3b0-ec70c5f721b5\") format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(\"40577824-792c-448e-be97-bb0515d3ac64\") format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(\"bc439db7-f4f5-4c94-a197-be93b37a586f\") format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(\"8d754576-c182-4081-a437-6d1ddd4b35da\") format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(\"862704ae-a09d-47c8-b03b-8e7c06abab2e\") format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(\"c733d8f7-e56e-49fa-af47-8f227557aa3c\") format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(\"46744887-27f9-40e3-b242-9ee2b3a6457d\") format('woff2');\n  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(\"52df7093-a3d1-4f6a-b3b0-ec70c5f721b5\") format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(\"40577824-792c-448e-be97-bb0515d3ac64\") format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(\"bc439db7-f4f5-4c94-a197-be93b37a586f\") format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(\"8d754576-c182-4081-a437-6d1ddd4b35da\") format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(\"862704ae-a09d-47c8-b03b-8e7c06abab2e\") format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(\"c733d8f7-e56e-49fa-af47-8f227557aa3c\") format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(\"46744887-27f9-40e3-b242-9ee2b3a6457d\") format('woff2');\n  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(\"52df7093-a3d1-4f6a-b3b0-ec70c5f721b5\") format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(\"40577824-792c-448e-be97-bb0515d3ac64\") format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(\"bc439db7-f4f5-4c94-a197-be93b37a586f\") format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(\"8d754576-c182-4081-a437-6d1ddd4b35da\") format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(\"862704ae-a09d-47c8-b03b-8e7c06abab2e\") format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(\"c733d8f7-e56e-49fa-af47-8f227557aa3c\") format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(\"46744887-27f9-40e3-b242-9ee2b3a6457d\") format('woff2');\n  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(\"52df7093-a3d1-4f6a-b3b0-ec70c5f721b5\") format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(\"40577824-792c-448e-be97-bb0515d3ac64\") format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(\"bc439db7-f4f5-4c94-a197-be93b37a586f\") format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(\"8d754576-c182-4081-a437-6d1ddd4b35da\") format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(\"862704ae-a09d-47c8-b03b-8e7c06abab2e\") format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(\"c733d8f7-e56e-49fa-af47-8f227557aa3c\") format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(\"46744887-27f9-40e3-b242-9ee2b3a6457d\") format('woff2');\n  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(\"52df7093-a3d1-4f6a-b3b0-ec70c5f721b5\") format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(\"40577824-792c-448e-be97-bb0515d3ac64\") format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(\"bc439db7-f4f5-4c94-a197-be93b37a586f\") format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(\"8d754576-c182-4081-a437-6d1ddd4b35da\") format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(\"862704ae-a09d-47c8-b03b-8e7c06abab2e\") format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(\"c733d8f7-e56e-49fa-af47-8f227557aa3c\") format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(\"46744887-27f9-40e3-b242-9ee2b3a6457d\") format('woff2');\n  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(\"52df7093-a3d1-4f6a-b3b0-ec70c5f721b5\") format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(\"40577824-792c-448e-be97-bb0515d3ac64\") format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(\"bc439db7-f4f5-4c94-a197-be93b37a586f\") format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n</style>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ff3b7d5",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0a2540"
+      },
+      "elements": [
+        {
+          "id": "670b280",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "e7b0cc0",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"hero\" id=\"hero\"><div class=\"hero-bg\">\n      <img src=\"60c4ee4a-b40d-4748-83d6-f2fea1a60763\" alt=\"Top pediatrician in Whitefield Bangalore — Dr. Shivashankar Diggikar\" loading=\"eager\">\n    </div>\n    <div class=\"hero-overlay\"></div>\n    <div class=\"hero-orb hero-orb-1\"></div>\n    <div class=\"hero-orb hero-orb-2\"></div>\n\n    <div class=\"hero-inner\">\n      <div class=\"container\">\n        <div class=\"hero-layout\">\n          <div class=\"hero-left\">\n            <div class=\"hero-badge\">\n              <span class=\"hero-badge-dot\"></span>\n              Now consulting · Medicover Whitefield Main Road · Near ITPL\n            </div>\n\n            <h1>Top Pediatrician in Whitefield, Bangalore<br><em>— Expert Child Care Near ITPL</em></h1>\n\n            <p class=\"hero-desc\">\n              UK &amp; Ireland Certified Pediatrician serving Whitefield, Kadugodi, Varthur, Hoodi, Brookefield &amp; ITPL. Dr. Shivashankar Diggikar — FRCPCH (UK) · FRCPI (Ireland) · BMJ Paediatrics Editor · 15+ Years Experience.\n            </p>\n\n            <div class=\"hero-ctas\">\n              <a href=\"https://www.medicoverhospitals.in/doctors/dr-shivashankar-diggikar\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-primary\">\n                <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line></svg>\n                Book Appointment\n              </a>\n              <a href=\"tel:+919133555335\" class=\"btn btn-ghost\">\n                <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.09-1.09a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path></svg>\n                +91-9133555335\n              </a>\n            </div>\n\n            <div class=\"hero-trust\">\n              <span class=\"hero-trust-item\">\n                <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n                FRCPCH (UK) Certified\n              </span>\n              <span class=\"hero-trust-divider\"></span>\n              <span class=\"hero-trust-item\">\n                <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n                Director, Medicover Whitefield\n              </span>\n              <span class=\"hero-trust-divider\"></span>\n              <span class=\"hero-trust-item\">\n                <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n                24/7 Pediatric Emergency\n              </span>\n            </div>\n          </div>\n\n          <!-- Credential card (desktop) -->\n          <div class=\"hero-card\">\n            <div class=\"hero-card-header\">\n              <div class=\"hero-avatar\">\n                <svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"></path><circle cx=\"12\" cy=\"7\" r=\"4\"></circle></svg>\n              </div>\n              <div>\n                <div class=\"hero-card-name\">Dr. Shivashankar Diggikar</div>\n                <div class=\"hero-card-title\">Pediatrician &amp; Neonatologist · Whitefield</div>\n              </div>\n            </div>\n            <div class=\"cred-list\">\n              <div class=\"cred-item\">\n                <span class=\"cred-item-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"8\" r=\"6\"></circle><path d=\"M15.477 12.89L17 22l-5-3-5 3 1.523-9.11\"></path></svg></span>\n                <div class=\"cred-item-text\">FRCPCH<span class=\"cred-item-sub\">Royal College of Paediatrics &amp; Child Health, UK</span></div>\n              </div>\n              <div class=\"cred-item\">\n                <span class=\"cred-item-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"8\" r=\"6\"></circle><path d=\"M15.477 12.89L17 22l-5-3-5 3 1.523-9.11\"></path></svg></span>\n                <div class=\"cred-item-text\">FRCPI<span class=\"cred-item-sub\">Royal College of Physicians, Ireland</span></div>\n              </div>\n              <div class=\"cred-item\">\n                <span class=\"cred-item-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"></path><polyline points=\"9 22 9 12 15 12 15 22\"></polyline></svg></span>\n                <div class=\"cred-item-text\">Director, Medicover Whitefield<span class=\"cred-item-sub\">Neonatal-Perinatal Services &amp; Academics</span></div>\n              </div>\n              <div class=\"cred-item\">\n                <span class=\"cred-item-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle></svg></span>\n                <div class=\"cred-item-text\">London-Trained Neonatologist<span class=\"cred-item-sub\">Homerton University Hospital, London</span></div>\n              </div>\n              <div class=\"cred-item\">\n                <span class=\"cred-item-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 19.5A2.5 2.5 0 0 1 6.5 17H20\"></path><path d=\"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z\"></path></svg></span>\n                <div class=\"cred-item-text\">Associate Editor<span class=\"cred-item-sub\">BMJ Paediatrics Open · 30+ Publications</span></div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c18612e",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "60a24e6",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "ec84482",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"about-section\" id=\"about\"><div class=\"container\">\n      <div class=\"section-tag\">Your Neighborhood Pediatrician</div>\n      <h2 class=\"section-heading\">World-Class Pediatric Care, Right Here in Whitefield</h2>\n\n      <div class=\"about-layout\">\n        <div class=\"about-text\">\n          <p>Finding a trusted <strong>pediatrician in Whitefield</strong> who combines international training with genuine accessibility for families in your neighborhood is no longer a challenge. Dr. Shivashankar Diggikar brings UK and Ireland-certified pediatric expertise right to your doorstep at <strong>Medicover Women &amp; Children Hospital, Whitefield Main Road</strong> — just 5 minutes from Forum Neighbourhood Mall and 10 minutes from ITPL.</p>\n\n          <p>Parents in Whitefield, ITPL, Kadugodi, Varthur, Hoodi, Brookefield, Marathahalli, Channasandra, Nallurhalli, and Doddanekkundi no longer need to travel to distant hospitals across Bangalore for world-class pediatric care. Dr. Diggikar is a <strong>top pediatrician in Whitefield</strong> with credentials rarely found in neighborhood clinics: <strong>FRCPCH</strong> (Fellow of the Royal College of Paediatrics and Child Health, UK) and <strong>FRCPI</strong> (Fellow of the Royal College of Physicians of Ireland) — dual international certifications that ensure your child receives care aligned with UK and European pediatric standards.</p>\n\n          <p>As <strong>Director of Neonatal-Perinatal Services</strong> and Head of Academics at Medicover Whitefield, Dr. Diggikar oversees the entire pediatric department — from NICU care for premature babies to routine vaccinations, growth monitoring, and management of childhood illnesses. His dual specialization as both a neonatologist and pediatrician means he can care for your child from day one of life through adolescence, making him the ideal long-term healthcare partner for Whitefield families.</p>\n\n          <p>What sets him apart? His London training at <strong>Homerton University Hospital</strong>, 30+ research publications in international pediatric journals, and role as Associate Editor at <strong>BMJ Paediatrics Open</strong> — one of the world's most respected peer-reviewed pediatric journals — mean you're not just getting clinical experience, you're getting evidence-based care backed by the latest global research.</p>\n\n          <div class=\"about-highlights\">\n            <div class=\"highlight-item\">\n              <span class=\"highlight-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle></svg></span>\n              5 min from Forum Mall · 10 min from ITPL · Connected by Whitefield Metro\n            </div>\n            <div class=\"highlight-item\">\n              <span class=\"highlight-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"8\" r=\"6\"></circle><path d=\"M15.477 12.89L17 22l-5-3-5 3 1.523-9.11\"></path></svg></span>\n              Dual UK + Ireland fellowships — rare among Bangalore pediatricians\n            </div>\n            <div class=\"highlight-item\">\n              <span class=\"highlight-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"></path><polyline points=\"9 22 9 12 15 12 15 22\"></polyline></svg></span>\n              Director of Neonatal-Perinatal Services, Medicover Whitefield\n            </div>\n            <div class=\"highlight-item\">\n              <span class=\"highlight-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg></span>\n              Mon–Sat, 9:30 AM – 2:30 PM · 24/7 Pediatric Emergency\n            </div>\n          </div>\n\n          <div class=\"internal-links-block\">\n            <p><strong>Related Reading</strong></p>\n            <p><a href=\"/nicu-specialist-bangalore\">→ Specialized NICU care for premature babies</a><br>\n            <a href=\"/newborn-care\">→ Comprehensive newborn care services for new parents in Whitefield</a></p>\n          </div>\n        </div>\n\n        <div class=\"about-sidebar\">\n          <div class=\"profile-card\">\n            <div class=\"profile-name\">Dr. Shivashankar Diggikar</div>\n            <div class=\"profile-title\">FRCPCH · FRCPI · MRCPCH · MD</div>\n            <div class=\"profile-stats\">\n              <div class=\"profile-stat\">\n                <div class=\"profile-stat-num\">15+</div>\n                <div class=\"profile-stat-label\">Years Exp.</div>\n              </div>\n              <div class=\"profile-stat\">\n                <div class=\"profile-stat-num\">30+</div>\n                <div class=\"profile-stat-label\">Publications</div>\n              </div>\n              <div class=\"profile-stat\">\n                <div class=\"profile-stat-num\">2</div>\n                <div class=\"profile-stat-label\">Fellowships</div>\n              </div>\n              <div class=\"profile-stat\">\n                <div class=\"profile-stat-num\">24/7</div>\n                <div class=\"profile-stat-label\">Emergency</div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"hours-card\">\n            <h4>Clinic Hours · Whitefield</h4>\n            <div class=\"hours-row\"><strong>Mon – Sat</strong><span>9:30 AM – 2:30 PM</span></div>\n            <div class=\"hours-row\"><strong>Sunday</strong><span>Closed (Emergency 24/7)</span></div>\n            <div class=\"hours-row\"><strong>Status</strong><span><span class=\"hours-open\">Open today</span></span></div>\n          </div>\n        </div>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a88d736",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#f8fafc"
+      },
+      "elements": [
+        {
+          "id": "babb4a9",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "bc51667",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"why-section\" id=\"why\"><div class=\"container\">\n      <div class=\"section-tag-white\">Why Whitefield Families Choose Dr. Diggikar</div>\n      <h2 class=\"section-heading\">Six reasons Whitefield families trust their child's care to Dr. Diggikar.</h2>\n      <p class=\"section-sub\">International training, deep neonatology specialization, and proximity to your neighborhood — under one roof.</p>\n\n      <div class=\"why-grid\">\n        <div class=\"why-card\">\n          <span class=\"why-num\">01</span>\n          <div class=\"why-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle></svg></div>\n          <h3>Conveniently Located in Whitefield</h3>\n          <p>Medicover Whitefield Main Road — 5 min from Forum Mall, 10 min from ITPL. Connected by Whitefield Metro (Purple Line). Ample free parking. No more cross-city travel.</p>\n        </div>\n        <div class=\"why-card\">\n          <span class=\"why-num\">02</span>\n          <div class=\"why-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"8\" r=\"6\"></circle><path d=\"M15.477 12.89L17 22l-5-3-5 3 1.523-9.11\"></path></svg></div>\n          <h3>FRCPCH (UK) &amp; FRCPI (Ireland)</h3>\n          <p>Dual international fellowships from the UK and Ireland — credentials very few neighborhood pediatricians in Bangalore hold. Care aligned with European standards.</p>\n        </div>\n        <div class=\"why-card\">\n          <span class=\"why-num\">03</span>\n          <div class=\"why-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 21s-7-4-7-11a7 7 0 0 1 14 0c0 7-7 11-7 11z\"></path><path d=\"M12 11v4\"></path><path d=\"M10 13h4\"></path></svg></div>\n          <h3>London-Trained Neonatologist</h3>\n          <p>Fellowship in Neonatal-Perinatal Medicine at Homerton University Hospital, London. Complex newborn cases, premature babies, and NICU admissions — handled right here.</p>\n        </div>\n        <div class=\"why-card\">\n          <span class=\"why-num\">04</span>\n          <div class=\"why-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"></path><polyline points=\"9 22 9 12 15 12 15 22\"></polyline></svg></div>\n          <h3>Director, Medicover Whitefield</h3>\n          <p>Director of Neonatal-Perinatal Services &amp; Head of Academics. Access to Level III NICU, 24/7 emergency, and a full pediatric support team — all in Whitefield.</p>\n        </div>\n        <div class=\"why-card\">\n          <span class=\"why-num\">05</span>\n          <div class=\"why-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 19.5A2.5 2.5 0 0 1 6.5 17H20\"></path><path d=\"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z\"></path></svg></div>\n          <h3>30+ Publications &amp; BMJ Editor</h3>\n          <p>Associate Editor at BMJ Paediatrics Open with 30+ international publications. Evidence-based, research-backed treatment protocols — not outdated practice.</p>\n        </div>\n        <div class=\"why-card\">\n          <span class=\"why-num\">06</span>\n          <div class=\"why-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path></svg></div>\n          <h3>15+ Years · Trusted by Thousands</h3>\n          <p>From newborn emergencies to chronic conditions — Dr. Diggikar has seen and successfully treated nearly every pediatric concern Whitefield parents worry about.</p>\n        </div>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "49c5e90",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "1512d37",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "e60fc58",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"services-section\" id=\"services\"><div class=\"container\">\n      <div class=\"section-tag\">Pediatric Services</div>\n      <h2 class=\"section-heading\">Comprehensive Child Healthcare for Whitefield Families</h2>\n      <p class=\"section-sub\">From the first 28 days of life through adolescence — one trusted doctor, end to end.</p>\n\n      <div class=\"services-grid\">\n        <div class=\"svc-card\">\n          <div class=\"svc-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M12 6v6l4 2\"></path></svg></div>\n          <h3>Newborn Care (0–28 Days)</h3>\n          <p>Complete health checks, jaundice phototherapy, feeding support, cord care, newborn screening, and safe discharge planning.</p>\n        </div>\n        <div class=\"svc-card\">\n          <div class=\"svc-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3\"></path><rect x=\"3\" y=\"9\" width=\"18\" height=\"12\" rx=\"2\"></rect><path d=\"M8 13h8\"></path></svg></div>\n          <h3>Vaccinations &amp; Immunizations</h3>\n          <p>Full IAP 2025 schedule — BCG, Hep B, DPT, MMR, Varicella, Rotavirus, Pneumococcal, HPV. Catch-up schedules included.</p>\n        </div>\n        <div class=\"svc-card\">\n          <div class=\"svc-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 3v18h18\"></path><path d=\"M7 14l3-3 3 3 5-5\"></path></svg></div>\n          <h3>Growth &amp; Development</h3>\n          <p>WHO-chart tracking for weight, height, head circumference. Milestone assessments and early identification of delays.</p>\n        </div>\n        <div class=\"svc-card\">\n          <div class=\"svc-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v4\"></path><path d=\"M9 7h6a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3v-8a3 3 0 0 1 3-3z\"></path><path d=\"M9 13h6\"></path></svg></div>\n          <h3>Sick Child Consultations</h3>\n          <p>Fever, infections, ear/throat issues, diarrhea, cough &amp; cold, UTIs, rashes. Walk-ins accepted during clinic hours.</p>\n        </div>\n        <div class=\"svc-card\">\n          <div class=\"svc-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 12c0-3.3 2.7-6 6-6s6 2.7 6 6\"></path><path d=\"M3 12h3M18 12h3M12 3v3M12 18v3\"></path><circle cx=\"12\" cy=\"12\" r=\"2\"></circle></svg></div>\n          <h3>Asthma &amp; Allergy Care</h3>\n          <p>Personalized action plans for asthma, allergic rhinitis, eczema, and food allergies — common in Whitefield/ITPL areas.</p>\n        </div>\n        <div class=\"svc-card\">\n          <div class=\"svc-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2c1.7 4 3 6 6 8-3 2-4.3 4-6 8-1.7-4-3-6-6-8 3-2 4.3-4 6-8z\"></path></svg></div>\n          <h3>Nutrition &amp; Feeding</h3>\n          <p>Breastfeeding support, formula advice, solids transition, picky eaters, nutrient deficiencies, and obesity counseling.</p>\n        </div>\n        <div class=\"svc-card\">\n          <div class=\"svc-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 12h4l3-9 4 18 3-9h4\"></path></svg></div>\n          <h3>Chronic Disease Management</h3>\n          <p>Type 1 diabetes, thyroid disorders, epilepsy, ADHD, autism — long-term monitoring with specialist coordination.</p>\n        </div>\n        <div class=\"svc-card\">\n          <div class=\"svc-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M12 7v10M7 12h10\"></path></svg></div>\n          <h3>24/7 Pediatric Emergency</h3>\n          <p>High fever, dehydration, breathing distress, seizures, head injuries. Round-the-clock at Medicover Whitefield.</p>\n        </div>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "79e097b",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "71e8d1c",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "90fd517",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"location-section\" id=\"location\"><div class=\"container\">\n      <div class=\"section-tag\">Convenient Whitefield Location</div>\n      <h2 class=\"section-heading\">Easy to Reach from Anywhere in Whitefield</h2>\n\n      <div class=\"location-layout\">\n        <div class=\"location-main-card\">\n          <div class=\"location-card-header\">\n            <div class=\"location-badge\">Primary Clinic</div>\n            <div class=\"location-title\">Medicover Women &amp; Children Hospital, Whitefield</div>\n          </div>\n          <div class=\"location-card-body\">\n            <div class=\"location-details\">\n              <div>\n                <div class=\"loc-detail-label\">Address</div>\n                <p class=\"loc-detail-value\">Whitefield Main Road, Whitefield, Bangalore — 560066</p>\n              </div>\n              <div>\n                <div class=\"loc-detail-label\">Consultation Hours</div>\n                <p class=\"loc-detail-value\">Monday–Saturday<br>9:30 AM – 2:30 PM</p>\n              </div>\n              <div>\n                <div class=\"loc-detail-label\">Phone</div>\n                <p class=\"loc-detail-value\"><a href=\"tel:+919133555335\" style=\"color: var(--blue-600);\">+91-9133555335</a><br>24/7 Pediatric Emergency</p>\n              </div>\n              <div>\n                <div class=\"loc-detail-label\">Insurance</div>\n                <p class=\"loc-detail-value\">All major insurance providers accepted at Medicover Whitefield</p>\n              </div>\n              <div>\n                <div class=\"loc-detail-label\">By Car</div>\n                <p class=\"loc-detail-value\">5 min from Forum Mall · 10 min from ITPL · 12 min from Kadugodi · 15 min from Varthur / Hoodi</p>\n              </div>\n              <div>\n                <div class=\"loc-detail-label\">By Metro</div>\n                <p class=\"loc-detail-value\">Whitefield Metro (Purple Line) — 8 min by auto · ITPL Metro — 12 min by auto</p>\n              </div>\n            </div>\n\n            <div class=\"areas-block\">\n              <strong>Serving families across</strong>\n              <span class=\"area-tag\">Whitefield</span>\n              <span class=\"area-tag\">ITPL</span>\n              <span class=\"area-tag\">Kadugodi</span>\n              <span class=\"area-tag\">Varthur</span>\n              <span class=\"area-tag\">Hoodi</span>\n              <span class=\"area-tag\">Brookefield</span>\n              <span class=\"area-tag\">Marathahalli</span>\n              <span class=\"area-tag\">Channasandra</span>\n              <span class=\"area-tag\">Nallurhalli</span>\n              <span class=\"area-tag\">Doddanekkundi</span>\n              <span class=\"area-tag\">Mahadevapura</span>\n              <span class=\"area-tag\">Hopefarm</span>\n              <span class=\"area-tag\">Ramagondanahalli</span>\n            </div>\n\n            <a href=\"https://www.medicoverhospitals.in/doctors/dr-shivashankar-diggikar\" target=\"_blank\" rel=\"noopener\" class=\"location-cta-btn\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\"></rect><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line></svg>\n              Book at Medicover Whitefield\n            </a>\n          </div>\n        </div>\n\n        <div class=\"contact-sidebar\">\n          <div class=\"contact-card\">\n            <h3>Quick Contact</h3>\n            <a href=\"tel:+919133555335\" class=\"contact-link-row\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.09-1.09a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path></svg>\n              +91-9133555335\n            </a>\n            <a href=\"https://www.medicoverhospitals.in/doctors/dr-shivashankar-diggikar\" target=\"_blank\" rel=\"noopener\" class=\"contact-link-row\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\"></rect><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line></svg>\n              Book Online\n            </a>\n            <p class=\"same-day-note\">Walk-ins accepted for sick child visits during clinic hours.</p>\n          </div>\n\n          <div class=\"secondary-clinic-card\">\n            <h4>Secondary Evening Clinic</h4>\n            <strong>Oyster Mother &amp; Child Hospital, Banaswadi</strong>\n            <p>Mon–Sat, 5:30 PM – 7:00 PM · Convenient when traveling from Whitefield toward Old Bangalore.</p>\n          </div>\n        </div>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c7c0360",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "7251191",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "1586d95",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"testimonials-section\" id=\"reviews\"><div class=\"container\">\n      <div class=\"testimonials-header\">\n        <div>\n          <div class=\"section-tag\">What Whitefield Parents Say</div>\n          <h2 class=\"section-heading\">Trusted by hundreds of families across Whitefield.</h2>\n        </div>\n        <div class=\"testimonials-rating\">\n          <span class=\"stars-lg\">★★★★★</span>\n          <span class=\"rating-text\">4.9 · Whitefield, ITPL, Kadugodi &amp; nearby</span>\n        </div>\n      </div>\n\n      <div class=\"carousel-wrapper\">\n        <div class=\"carousel\" id=\"carousel\">\n          <div class=\"testimonial-card active\">\n            <div class=\"tcard-inner\">\n              <div class=\"tcard-quote\">“</div>\n              <div class=\"tcard-stars\">★★★★★</div>\n              <div class=\"tcard-headline\">Finally, a world-class pediatrician right in Whitefield.</div>\n              <p class=\"tcard-text\">We used to drive all the way to Koramangala for our daughter's pediatrician. After we found Dr. Diggikar at Medicover Whitefield, those long drives are over. His UK training and experience show in every consultation. He's now our family's go-to doctor for both our kids.</p>\n              <div class=\"tcard-author\">\n                <div class=\"tcard-avatar\">AK</div>\n                <div>\n                  <div class=\"tcard-author-name\">Anjali &amp; Karthik</div>\n                  <div class=\"tcard-author-loc\">Whitefield · near Forum Mall</div>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"testimonial-card\">\n            <div class=\"tcard-inner\">\n              <div class=\"tcard-quote\">“</div>\n              <div class=\"tcard-stars\">★★★★★</div>\n              <div class=\"tcard-headline\">Top pediatrician near ITPL — no contest.</div>\n              <p class=\"tcard-text\">As working parents at ITPL, we needed a pediatrician close to work for emergencies. Dr. Diggikar at Medicover Whitefield is just 10 minutes away. He's handled everything from our son's vaccinations to a scary high fever episode at 2 months old. Can't recommend him enough.</p>\n              <div class=\"tcard-author\">\n                <div class=\"tcard-avatar\">PR</div>\n                <div>\n                  <div class=\"tcard-author-name\">Priya R.</div>\n                  <div class=\"tcard-author-loc\">ITPL</div>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"testimonial-card\">\n            <div class=\"tcard-inner\">\n              <div class=\"tcard-quote\">“</div>\n              <div class=\"tcard-stars\">★★★★★</div>\n              <div class=\"tcard-headline\">Our Kadugodi neighborhood's most trusted children's doctor.</div>\n              <p class=\"tcard-text\">Everyone in our apartment complex in Kadugodi takes their kids to Dr. Diggikar. His NICU expertise saved our neighbor's premature twins, and he's been our son's pediatrician since birth. We drive 15 minutes to Medicover Whitefield every time — worth it.</p>\n              <div class=\"tcard-author\">\n                <div class=\"tcard-avatar\">RM</div>\n                <div>\n                  <div class=\"tcard-author-name\">Rohan M.</div>\n                  <div class=\"tcard-author-loc\">Kadugodi</div>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"testimonial-card\">\n            <div class=\"tcard-inner\">\n              <div class=\"tcard-quote\">“</div>\n              <div class=\"tcard-stars\">★★★★★</div>\n              <div class=\"tcard-headline\">Asthma management expert — our daughter breathes easier now.</div>\n              <p class=\"tcard-text\">Our 7-year-old has severe asthma triggered by Bangalore's pollution. Dr. Diggikar created a detailed action plan, taught us proper inhaler technique, and her emergency visits dropped to zero. We live in Varthur and drive to Whitefield specifically to see him.</p>\n              <div class=\"tcard-author\">\n                <div class=\"tcard-avatar\">DS</div>\n                <div>\n                  <div class=\"tcard-author-name\">Deepak S.</div>\n                  <div class=\"tcard-author-loc\">Varthur</div>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"testimonial-card\">\n            <div class=\"tcard-inner\">\n              <div class=\"tcard-quote\">“</div>\n              <div class=\"tcard-stars\">★★★★★</div>\n              <div class=\"tcard-headline\">No more rushing across Bangalore for pediatric emergencies.</div>\n              <p class=\"tcard-text\">Having a London-trained neonatologist and pediatrician right here in Whitefield gives us so much peace of mind. Dr. Diggikar is available 24/7 at Medicover for emergencies, and his team has handled our twins' illnesses expertly every single time.</p>\n              <div class=\"tcard-author\">\n                <div class=\"tcard-avatar\">SA</div>\n                <div>\n                  <div class=\"tcard-author-name\">Sneha &amp; Arjun</div>\n                  <div class=\"tcard-author-loc\">Brookefield</div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"carousel-nav\">\n          <button class=\"carousel-btn\" id=\"prevBtn\" aria-label=\"Previous testimonial\">‹</button>\n          <div class=\"carousel-dots\" id=\"carouselDots\"></div>\n          <button class=\"carousel-btn\" id=\"nextBtn\" aria-label=\"Next testimonial\">›</button>\n        </div>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a946bca",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "63aafe0",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "c0417dd",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"faq-section\" id=\"faq\"><div class=\"container\">\n      <div class=\"section-tag\">Frequently Asked</div>\n      <h2 class=\"section-heading\">Answers for parents in Whitefield, ITPL &amp; nearby.</h2>\n\n      <div class=\"faq-layout\">\n        <aside class=\"faq-sidebar\">\n          <div class=\"faq-sidebar-card\">\n            <h3>Have another question?</h3>\n            <p>Speak to our team during clinic hours, or call anytime for pediatric emergencies — 24/7 at Medicover Whitefield.</p>\n            <a href=\"tel:+919133555335\" class=\"btn btn-white\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.09-1.09a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path></svg>\n              +91-9133555335\n            </a>\n          </div>\n        </aside>\n\n        <div class=\"faq-list\">\n          <div class=\"faq-item is-open\">\n            <button class=\"faq-question\" aria-expanded=\"true\">\n              <span>Is Dr. Diggikar's clinic located inside Whitefield or do I need to travel far?</span>\n              <span class=\"faq-q-icon\">+</span>\n            </button>\n            <div class=\"faq-answer open\">\n              <p>Dr. Diggikar practices at Medicover Women &amp; Children Hospital on Whitefield Main Road — right in the heart of Whitefield, 5 minutes from Forum Neighbourhood Mall and 10 minutes from ITPL. Most families from Whitefield, Kadugodi, Varthur, Hoodi, and Brookefield reach the hospital in 10–15 minutes by car. The clinic is well-connected by Whitefield Metro Station (Purple Line), with ample parking available. You do <strong>not</strong> need to travel to Koramangala, Indiranagar, or other parts of Bangalore.</p>\n            </div>\n          </div>\n\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">\n              <span>Can I walk in for consultations or do I need to book an appointment?</span>\n              <span class=\"faq-q-icon\">+</span>\n            </button>\n            <div class=\"faq-answer\">\n              <p>Walk-in consultations are accepted for sick child visits and urgent concerns during clinic hours (Mon–Sat, 9:30 AM – 2:30 PM). For routine check-ups, vaccinations, and non-urgent consultations, we recommend booking an appointment to avoid wait times. Book online at <a href=\"https://www.medicoverhospitals.in/doctors/dr-shivashankar-diggikar\" target=\"_blank\" rel=\"noopener\">medicoverhospitals.in</a> or call <a href=\"tel:+919133555335\">+91-9133555335</a>. For pediatric emergencies, go directly to Medicover Whitefield Emergency — 24/7, no appointment needed.</p>\n            </div>\n          </div>\n\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">\n              <span>What age children does Dr. Diggikar treat at Medicover Whitefield?</span>\n              <span class=\"faq-q-icon\">+</span>\n            </button>\n            <div class=\"faq-answer\">\n              <p>Dr. Diggikar treats children from newborn (day 0) through 18 years (adolescence). As a neonatologist, he specializes in the critical first 28 days of life including NICU care for premature babies. As a pediatrician, he continues caring through infancy, toddler years, school age, and the teenage years. Many Whitefield families have been with Dr. Diggikar since their child's birth.</p>\n            </div>\n          </div>\n\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">\n              <span>Does Dr. Diggikar provide vaccinations at the Whitefield clinic?</span>\n              <span class=\"faq-q-icon\">+</span>\n            </button>\n            <div class=\"faq-answer\">\n              <p>Yes. Dr. Diggikar follows the Indian Academy of Pediatrics (IAP) 2025 vaccination schedule and provides all mandatory and optional vaccines at Medicover Whitefield. This includes BCG, Hepatitis B, DPT, Polio, MMR, Varicella, Rotavirus, Pneumococcal conjugate, Meningococcal, Typhoid, Influenza, and HPV vaccines. He provides personalized vaccine counseling based on Bangalore-specific disease prevalence and your child's risk factors.</p>\n            </div>\n          </div>\n\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">\n              <span>Is Dr. Diggikar available for pediatric emergencies in Whitefield?</span>\n              <span class=\"faq-q-icon\">+</span>\n            </button>\n            <div class=\"faq-answer\">\n              <p>Yes. Dr. Diggikar provides 24/7 on-call pediatric emergency consultation at Medicover Whitefield. For emergencies like high fever in infants under 3 months, severe dehydration, breathing difficulty, seizures, head injuries, or poisoning — call <a href=\"tel:+919133555335\">+91-9133555335</a> or go directly to Medicover Whitefield Emergency. No need to rush across Bangalore.</p>\n            </div>\n          </div>\n\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">\n              <span>Does Medicover Whitefield accept health insurance for pediatric care?</span>\n              <span class=\"faq-q-icon\">+</span>\n            </button>\n            <div class=\"faq-answer\">\n              <p>Yes. Medicover Hospitals Whitefield is empaneled with all major health insurance providers including Star Health, HDFC Ergo, ICICI Lombard, Max Bupa, Care Health, Religare, Bajaj Allianz, New India Assurance, and government schemes like Ayushman Bharat and Karnataka Arogya Sanjeevani. Insurance typically covers hospitalization, surgeries, and emergency care; outpatient consultations (OPD) are usually not covered — confirm with your specific policy.</p>\n            </div>\n          </div>\n\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">\n              <span>What makes Dr. Diggikar one of the top pediatricians in Whitefield?</span>\n              <span class=\"faq-q-icon\">+</span>\n            </button>\n            <div class=\"faq-answer\">\n              <p>Dr. Diggikar is one of the few FRCPCH (UK) and FRCPI (Ireland) certified pediatricians practicing full-time in Whitefield. His London training at Homerton University Hospital, 30+ research publications, Associate Editor role at BMJ Paediatrics Open, and Director-level position at Medicover Whitefield bring international pediatric care standards to your neighborhood. Most pediatricians in Whitefield hold only MBBS or MD Pediatrics — Dr. Diggikar's dual UK/Ireland fellowships and neonatology specialization set him apart significantly.</p>\n            </div>\n          </div>\n\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">\n              <span>Can Dr. Diggikar help with childhood asthma and allergies common in Whitefield?</span>\n              <span class=\"faq-q-icon\">+</span>\n            </button>\n            <div class=\"faq-answer\">\n              <p>Yes. Dr. Diggikar has extensive experience managing childhood asthma, wheezing, allergic rhinitis, eczema, and food allergies — conditions increasingly common in Whitefield and ITPL areas due to Bangalore's air pollution and construction dust. He creates personalized asthma action plans, teaches proper inhaler/spacer technique to parents, prescribes controller medications when needed, and monitors lung function. Many Whitefield families trust Dr. Diggikar specifically for long-term asthma management.</p>\n            </div>\n          </div>\n\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">\n              <span>Is there parking available at the Whitefield clinic?</span>\n              <span class=\"faq-q-icon\">+</span>\n            </button>\n            <div class=\"faq-answer\">\n              <p>Yes. Medicover Women &amp; Children Hospital, Whitefield has ample free parking available for patients. The hospital is easily accessible by car with dedicated parking bays. If traveling by auto-rickshaw or metro, the hospital is a short ride from Whitefield Metro Station (Purple Line) and well-known to local auto drivers as \"Medicover Hospital, Whitefield Main Road\".</p>\n            </div>\n          </div>\n\n          <div class=\"faq-item\">\n            <button class=\"faq-question\" aria-expanded=\"false\">\n              <span>Can I consult Dr. Diggikar for my newborn baby in Whitefield?</span>\n              <span class=\"faq-q-icon\">+</span>\n            </button>\n            <div class=\"faq-answer\">\n              <p>Absolutely. As a London-trained neonatologist, Dr. Diggikar specializes in newborn care including jaundice management, feeding problems, low birth weight babies, premature infants, and NICU admissions. Many Whitefield families deliver at Medicover Whitefield specifically to have Dr. Diggikar attend the delivery and provide immediate newborn care. If your baby is born elsewhere and you need a newborn specialist in Whitefield, Dr. Diggikar accepts consultations for babies from day one of life.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "57eeea8",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0a2540"
+      },
+      "elements": [
+        {
+          "id": "93b8a81",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "5e20e6f",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<section class=\"final-cta\" id=\"book\"><div class=\"container\">\n      <div class=\"cta-inner\">\n        <div class=\"section-tag-white\">Book an Appointment</div>\n        <h2>Expert Pediatric Care Right Here in Whitefield, Bangalore.</h2>\n        <p class=\"cta-desc\">No need to travel across Bangalore for UK-certified pediatric expertise. Dr. Shivashankar Diggikar brings FRCPCH (UK), FRCPI (Ireland) training, 15+ years of experience, and London-trained neonatal care right to your neighborhood at Medicover Women &amp; Children Hospital, Whitefield.</p>\n\n        <div class=\"cta-btns\">\n          <a href=\"https://www.medicoverhospitals.in/doctors/dr-shivashankar-diggikar\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-white\">\n            <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\"></rect><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"></line><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"></line><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"></line></svg>\n            Book Appointment Online\n          </a>\n          <a href=\"tel:+919133555335\" class=\"btn btn-ghost\">\n            <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.09-1.09a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path></svg>\n            Call: +91-9133555335\n          </a>\n        </div>\n\n        <div class=\"cta-trust\">\n          <span class=\"cta-trust-item\">\n            <span class=\"cta-trust-icon\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle></svg></span>\n            Medicover Whitefield, Bangalore\n          </span>\n          <span class=\"cta-trust-item\">\n            <span class=\"cta-trust-icon\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg></span>\n            Mon–Sat, 9:30 AM – 2:30 PM\n          </span>\n          <span class=\"cta-trust-item\">\n            <span class=\"cta-trust-icon\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg></span>\n            24/7 Pediatric Emergency\n          </span>\n        </div>\n\n        <p class=\"cta-areas\">Serving families in Whitefield · ITPL · Kadugodi · Varthur · Hoodi · Brookefield · Marathahalli · Channasandra · Nallurhalli · Doddanekkundi.</p>\n      </div>\n    </div></section>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8a382a9",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1160,
+          "sizes": []
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "transparent"
+      },
+      "elements": [
+        {
+          "id": "ca10611",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "98c81f3",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"mobile-sticky-cta\" id=\"whitefield-mobile-cta\">\n  <a href=\"tel:+919133555335\" class=\"btn btn-outline-blue\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.09-1.09a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>Call</a>\n  <a href=\"https://www.medicoverhospitals.in/doctors/dr-shivashankar-diggikar\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-primary\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\"/><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"/><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"/></svg>Book</a>\n</div>\n\n<script>\n\n// ── FAQ ────────────────────────────────────────────────────\ndocument.querySelectorAll('.faq-question').forEach(btn => {\n  btn.addEventListener('click', () => {\n    const item = btn.closest('.faq-item');\n    const answer = btn.nextElementSibling;\n    const isOpen = item.classList.contains('is-open');\n\n    document.querySelectorAll('.faq-item').forEach(el => {\n      el.classList.remove('is-open');\n      el.querySelector('.faq-question').setAttribute('aria-expanded', 'false');\n      el.querySelector('.faq-answer').classList.remove('open');\n    });\n\n    if (!isOpen) {\n      item.classList.add('is-open');\n      btn.setAttribute('aria-expanded', 'true');\n      answer.classList.add('open');\n    }\n  });\n});\n\n// ── TESTIMONIALS CAROUSEL ──────────────────────────────────\nconst cards = document.querySelectorAll('.testimonial-card');\nconst dotsContainer = document.getElementById('carouselDots');\nlet current = 0;\nlet autoplayTimer;\n\ncards.forEach((_, i) => {\n  const dot = document.createElement('button');\n  dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');\n  dot.setAttribute('aria-label', `Testimonial ${i + 1}`);\n  dot.addEventListener('click', () => goTo(i));\n  dotsContainer?.appendChild(dot);\n});\n\nfunction goTo(index) {\n  cards[current].classList.remove('active');\n  dotsContainer?.querySelectorAll('.carousel-dot')[current]?.classList.remove('active');\n  current = (index + cards.length) % cards.length;\n  cards[current].classList.add('active');\n  dotsContainer?.querySelectorAll('.carousel-dot')[current]?.classList.add('active');\n  resetAutoplay();\n}\n\ndocument.getElementById('prevBtn')?.addEventListener('click', () => goTo(current - 1));\ndocument.getElementById('nextBtn')?.addEventListener('click', () => goTo(current + 1));\n\nfunction startAutoplay() { autoplayTimer = setInterval(() => goTo(current + 1), 6500); }\nfunction resetAutoplay() { clearInterval(autoplayTimer); startAutoplay(); }\nstartAutoplay();\n\n// Touch swipe\nlet touchStartX = 0;\nconst carouselEl = document.getElementById('carousel');\ncarouselEl?.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });\ncarouselEl?.addEventListener('touchend', e => {\n  const diff = touchStartX - e.changedTouches[0].clientX;\n  if (Math.abs(diff) > 50) goTo(diff > 0 ? current + 1 : current - 1);\n});\n\n// ── SCROLL REVEAL ──────────────────────────────────────────\nconst revealObserver = new IntersectionObserver((entries) => {\n  entries.forEach(entry => {\n    if (entry.isIntersecting) {\n      entry.target.classList.add('visible');\n      revealObserver.unobserve(entry.target);\n    }\n  });\n}, { threshold: 0.08 });\n\ndocument.querySelectorAll('.why-card, .svc-card, .location-main-card, .faq-item, .highlight-item, .cred-item').forEach(el => {\n  el.classList.add('reveal');\n  revealObserver.observe(el);\n});\n\nconst style = document.createElement('style');\nstyle.textContent = `\n  .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.5s ease, transform 0.5s ease; }\n  .reveal.visible { opacity: 1; transform: translateY(0); }\n`;\ndocument.head.appendChild(style);\n  \n</script>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "custom_css": ""
+  }
+}
