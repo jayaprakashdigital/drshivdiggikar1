@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script data-od-sandbox-shim>(function(){
+  function makeStore(){
+    var data = {};
+    var api = {
+      getItem: function(k){ return Object.prototype.hasOwnProperty.call(data, k) ? data[k] : null; },
+      setItem: function(k, v){ data[k] = String(v); },
+      removeItem: function(k){ delete data[k]; },
+      clear: function(){ data = {}; },
+      key: function(i){ return Object.keys(data)[i] || null; }
+    };
+    Object.defineProperty(api, 'length', { get: function(){ return Object.keys(data).length; } });
+    return api;
+  }
+  function tryShim(name){
+    var works = false;
+    try { works = !!window[name] && typeof window[name].getItem === 'function'; void window[name].length; }
+    catch (_) { works = false; }
+    if (works) return;
+    try { Object.defineProperty(window, name, { configurable: true, value: makeStore() }); }
+    catch (_) { try { window[name] = makeStore(); } catch (__) {} }
+  }
+  tryShim('localStorage');
+  tryShim('sessionStorage');
+})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Shiv Diggikar — Hero Section</title>
+<style>
+:root{
+--navy:#1B2E5F;--navy-dark:#111C3A;--navy-mid:#2D4A8A;
+--gold:#C9921C;--gold-light:#E8B84B;--gold-pale:#FEF3DC;
+--teal:#0D7C7C;--teal-light:#14A8A8;--teal-pale:#E6F7F7;
+--white:#fff;--gray50:#F8FAFC;
+--serif:Georgia,'Times New Roman',Palatino,serif;
+--sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+--ease:cubic-bezier(.4,0,.2,1);--dur:.25s;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--sans);color:#111827;background:#fff;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+
+/* Layout */
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:99px;font-size:15px;font-weight:600;transition:all var(--dur) var(--ease);white-space:nowrap;cursor:pointer;border:none;font-family:var(--sans)}
+.btn-gold{background:var(--gold);color:#fff;box-shadow:0 4px 16px rgba(201,146,28,.30)}
+.btn-gold:hover{background:#B8820F;box-shadow:0 6px 24px rgba(201,146,28,.45);transform:translateY(-1px)}
+.btn-outline-white{background:transparent;border:2px solid rgba(255,255,255,.6);color:#fff}
+.btn-outline-white:hover{background:rgba(255,255,255,.12);border-color:#fff}
+.btn-lg{padding:16px 36px;font-size:16px}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,var(--navy-dark) 0%,var(--navy) 40%,#1F4080 70%,#0D7070 100%);position:relative;overflow:hidden;padding:80px 0 110px}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 15% 60%,rgba(201,146,28,.09) 0%,transparent 55%),radial-gradient(ellipse at 85% 20%,rgba(13,124,124,.15) 0%,transparent 50%)}
+.hero::after{content:'';position:absolute;bottom:-1px;left:0;right:0;height:70px;background:#fff;clip-path:ellipse(55% 100% at 50% 100%)}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;position:relative;z-index:1}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:99px;padding:6px 16px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gold-light);margin-bottom:22px}
+.hero-title{font-family:var(--serif);font-size:clamp(30px,4.5vw,54px);line-height:1.15;letter-spacing:-.02em;color:#fff;margin-bottom:18px}
+.hero-title span{color:var(--gold-light)}
+.hero-sub{font-size:17px;line-height:1.7;color:rgba(255,255,255,.78);margin-bottom:34px;max-width:470px}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:48px}
+.hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.hero-stat{text-align:center;padding:16px 12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:12px;backdrop-filter:blur(8px)}
+.hero-stat-val{display:block;font-family:var(--serif);font-size:28px;font-weight:700;color:var(--gold-light);line-height:1;margin-bottom:4px}
+.hero-stat-lbl{font-size:11px;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+/* Hero visual */
+.hero-visual{display:flex;flex-direction:column;gap:14px}
+.hero-feat-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:20px;overflow:hidden;backdrop-filter:blur(16px);transition:all var(--dur) var(--ease)}
+.hero-feat-card:hover{transform:translateY(-4px);border-color:rgba(255,255,255,.30)}
+.hero-card-img{width:100%;height:175px;display:flex;align-items:center;justify-content:center;font-size:72px;background:linear-gradient(135deg,rgba(13,124,124,.5),rgba(27,46,95,.7))}
+.hero-card-body{padding:18px 20px}
+.hero-card-tag{display:inline-block;padding:3px 10px;background:var(--gold);color:#fff;border-radius:99px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}
+.hero-card-title{font-family:var(--serif);font-size:17px;line-height:1.35;color:#fff;margin-bottom:10px}
+.hero-card-meta{display:flex;gap:14px;font-size:11px;color:rgba(255,255,255,.55)}
+.hero-mini-cards{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.hero-mini-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:13px;display:flex;gap:10px;align-items:flex-start;transition:all var(--dur) var(--ease)}
+.hero-mini-card:hover{background:rgba(255,255,255,.14)}
+.mini-icon{width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0}
+.mini-title{font-size:12px;font-weight:600;color:#fff;line-height:1.35;margin-bottom:2px}
+.mini-cat{font-size:10px;color:rgba(255,255,255,.52)}
+
+/* Responsive */
+@media(max-width:960px){
+.hero-grid{grid-template-columns:1fr}
+.hero-visual{display:none}
+.hero{padding:60px 0 90px}
+}
+@media(max-width:480px){
+.hero-stats{grid-template-columns:repeat(2,1fr)}
+.hero-ctas{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<section class="hero" aria-label="Hero banner">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-eyebrow">✦ Trusted Medical Expertise Since 2010</div>
+        <h1 class="hero-title">Evidence-Based <span>Medical Insights</span> for Better Child Health</h1>
+        <p class="hero-sub">Expert guidance on neonatal care, pediatric health &amp; child development from Dr. Shiv Diggikar — Neonatologist &amp; Pediatrician, Bangalore.</p>
+        <div class="hero-ctas">
+          <a href="#" class="btn btn-gold btn-lg">Explore Articles</a>
+          <a href="#" class="btn btn-outline-white btn-lg">Book Consultation</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="hero-stat-val">15+</span><span class="hero-stat-lbl">Years Practice</span></div>
+          <div class="hero-stat"><span class="hero-stat-val">200+</span><span class="hero-stat-lbl">Expert Articles</span></div>
+          <div class="hero-stat"><span class="hero-stat-val">50K+</span><span class="hero-stat-lbl">Monthly Readers</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-feat-card">
+          <div class="hero-card-img">🍼</div>
+          <div class="hero-card-body">
+            <span class="hero-card-tag">Featured</span>
+            <h3 class="hero-card-title">Neonatal Jaundice: A Parent's Complete Guide</h3>
+            <div class="hero-card-meta"><span>📅 May 2026</span><span>⏱ 8 min</span><span>👁 12.4K</span></div>
+          </div>
+        </div>
+        <div class="hero-mini-cards">
+          <div class="hero-mini-card"><div class="mini-icon">👶</div><div><div class="mini-title">Premature Baby Care at Home</div><div class="mini-cat">Neonatology · 6 min</div></div></div>
+          <div class="hero-mini-card"><div class="mini-icon">🌡️</div><div><div class="mini-title">Fever in Infants: When to Worry</div><div class="mini-cat">Pediatrics · 5 min</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
