@@ -4,7 +4,7 @@
   "type": "page",
   "content": [
     {
-      "id": "fc758dc",
+      "id": "b92609f",
       "elType": "section",
       "isInner": false,
       "settings": {
@@ -30,7 +30,7 @@
       },
       "elements": [
         {
-          "id": "40c09c4",
+          "id": "171a80e",
           "elType": "column",
           "isInner": false,
           "settings": {
@@ -47,7 +47,7 @@
           },
           "elements": [
             {
-              "id": "7818eeb",
+              "id": "aa868e2",
               "elType": "widget",
               "widgetType": "html",
               "settings": {
