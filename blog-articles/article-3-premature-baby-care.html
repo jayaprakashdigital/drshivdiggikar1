@@ -1,0 +1,257 @@
+<!DOCTYPE html><html lang="en"><head><script data-od-sandbox-shim>(function(){
+  function makeStore(){
+    var data = {};
+    var api = {
+      getItem: function(k){ return Object.prototype.hasOwnProperty.call(data, k) ? data[k] : null; },
+      setItem: function(k, v){ data[k] = String(v); },
+      removeItem: function(k){ delete data[k]; },
+      clear: function(){ data = {}; },
+      key: function(i){ return Object.keys(data)[i] || null; }
+    };
+    Object.defineProperty(api, 'length', { get: function(){ return Object.keys(data).length; } });
+    return api;
+  }
+  function tryShim(name){
+    var works = false;
+    try { works = !!window[name] && typeof window[name].getItem === 'function'; void window[name].length; }
+    catch (_) { works = false; }
+    if (works) return;
+    try { Object.defineProperty(window, name, { configurable: true, value: makeStore() }); }
+    catch (_) { try { window[name] = makeStore(); } catch (__) {} }
+  }
+  tryShim('localStorage');
+  tryShim('sessionStorage');
+})();</script><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A neonatologist's guide to premature baby care in Bangalore. Dr. Diggikar FRCPCH explains NICU milestones, feeding, breathing support & what to expect week by week.">
+<title>Premature Baby Care in Bangalore: 27–32 Weeks Guide | Dr. Diggikar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+:root{
+  --blue:#2b57bd;--blue-dark:#045cb4;--blue-light:#F0F5FA;
+  --navy:#1e293b;--text:#334155;--muted:#64748b;--border:#e2e8f0;
+  --gold:#f7b500;--white:#fff;--bg:#F8FAFC;
+  --serif:Georgia,serif;--sans:'Poppins',sans-serif;
+  --radius:10px;--shadow:0 4px 20px rgba(27,46,95,.08);
+  --container:1240px;--ease:cubic-bezier(.4,0,.2,1);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--text);background:var(--white);line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+a:hover{color:var(--blue-dark)}
+img{max-width:100%;display:block}
+ul,ol{padding-left:1.5rem}
+
+/* Container */
+.container{max-width:var(--container);margin:0 auto;padding:0 28px}
+
+/* Header */
+.site-header{background:var(--white);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;height:70px}
+.logo{display:flex;align-items:center;gap:11px}
+.logo-mark{width:42px;height:42px;background:var(--blue);border-radius:9px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:20px;flex-shrink:0}
+.logo-name{font-size:15px;font-weight:700;color:var(--navy);line-height:1.15}
+.logo-sub{font-size:10px;color:var(--muted);font-weight:500;letter-spacing:.04em}
+.header-cta{display:flex;align-items:center;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:7px;padding:10px 22px;border-radius:99px;font-size:14px;font-weight:600;font-family:var(--sans);border:none;cursor:pointer;transition:all .2s var(--ease)}
+.btn-primary{background:var(--blue);color:#fff;box-shadow:0 4px 14px rgba(43,87,189,.3)}
+.btn-primary:hover{background:var(--blue-dark);transform:translateY(-1px);color:#fff}
+.btn-outline{background:transparent;border:2px solid var(--blue);color:var(--blue)}
+.btn-outline:hover{background:var(--blue);color:#fff}
+
+/* Breadcrumb */
+.breadcrumb{padding:14px 0;font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px}
+.breadcrumb a{color:var(--muted)}
+.breadcrumb a:hover{color:var(--blue)}
+.breadcrumb span{color:var(--text)}
+
+/* Article Hero */
+.article-hero{background:linear-gradient(135deg,var(--navy) 0%,#1a3a7a 60%,#1a5b9a 100%);padding:52px 0 60px;position:relative;overflow:hidden}
+.article-hero::after{content:'';position:absolute;bottom:-1px;left:0;right:0;height:50px;background:var(--white);clip-path:ellipse(55% 100% at 50% 100%)}
+.article-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 80% 20%,rgba(43,87,189,.25),transparent 55%)}
+.hero-inner{position:relative;z-index:1;max-width:860px}
+.category-badge{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:99px;padding:5px 15px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.9);margin-bottom:18px}
+.article-title{font-size:clamp(26px,4vw,44px);font-weight:700;line-height:1.2;color:#fff;margin-bottom:18px;letter-spacing:-.01em}
+.article-meta{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-bottom:0}
+.meta-item{display:flex;align-items:center;gap:6px;font-size:13px;color:rgba(255,255,255,.7);font-weight:500}
+.meta-dot{width:4px;height:4px;border-radius:50%;background:rgba(255,255,255,.35)}
+
+/* Layout */
+.content-wrap{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:44px;padding:52px 0 80px;align-items:start}
+.article-body{min-width:0}
+.sidebar{position:sticky;top:90px;display:flex;flex-direction:column;gap:22px}
+
+/* Article Body */
+.article-body h2{font-size:clamp(19px,2.5vw,25px);font-weight:700;color:var(--navy);margin:40px 0 14px;line-height:1.25;padding-bottom:10px;border-bottom:2px solid var(--blue-light)}
+.article-body h3{font-size:18px;font-weight:600;color:var(--navy);margin:30px 0 11px}
+.article-body p{margin-bottom:18px;font-size:16px;line-height:1.8;color:var(--text)}
+.article-body ul,.article-body ol{margin-bottom:18px;display:flex;flex-direction:column;gap:7px}
+.article-body li{font-size:15.5px;line-height:1.7;color:var(--text)}
+.article-body strong{color:var(--navy);font-weight:600}
+.article-body blockquote{margin:28px 0;padding:20px 24px;background:var(--blue-light);border-left:4px solid var(--blue);border-radius:0 var(--radius) var(--radius) 0;font-size:15.5px;line-height:1.7;color:var(--navy);font-style:italic}
+
+/* Info box */
+.info-box{background:var(--blue-light);border:1px solid #c7d9f7;border-radius:var(--radius);padding:20px 22px;margin:28px 0}
+.info-box-title{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--blue);margin-bottom:10px;display:flex;align-items:center;gap:7px}
+.warning-box{background:#fff8ed;border:1px solid #f7d98a;border-radius:var(--radius);padding:20px 22px;margin:28px 0}
+.warning-box-title{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#b45309;margin-bottom:10px;display:flex;align-items:center;gap:7px}
+
+/* Table */
+.table-wrap{overflow-x:auto;margin:28px 0}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{background:var(--navy);color:#fff;padding:11px 14px;text-align:left;font-weight:600;font-size:13px}
+td{padding:10px 14px;border-bottom:1px solid var(--border);color:var(--text)}
+tr:nth-child(even) td{background:var(--bg)}
+
+/* CTA Box */
+.cta-box{background:linear-gradient(135deg,var(--blue) 0%,var(--blue-dark) 100%);border-radius:14px;padding:28px;color:#fff;margin:40px 0}
+.cta-box h3{font-size:18px;font-weight:700;margin-bottom:10px;color:#fff}
+.cta-box p{font-size:14.5px;line-height:1.65;color:rgba(255,255,255,.85);margin-bottom:20px}
+.cta-box .btn-white{background:#fff;color:var(--blue);font-weight:700}
+.cta-box .btn-white:hover{background:#f0f5ff;color:var(--blue-dark)}
+.cta-meta{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px}
+.cta-meta span{font-size:13px;color:rgba(255,255,255,.75);display:flex;align-items:center;gap:5px}
+
+/* Author box */
+.author-box{background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:24px;display:flex;gap:20px;align-items:flex-start;margin-top:44px}
+.author-avatar{width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,var(--blue),#1a5b9a);display:flex;align-items:center;justify-content:center;color:#fff;font-size:22px;flex-shrink:0}
+.author-name{font-size:16px;font-weight:700;color:var(--navy);margin-bottom:3px}
+.author-creds{font-size:12px;color:var(--blue);font-weight:600;margin-bottom:9px;letter-spacing:.02em}
+.author-bio{font-size:13.5px;line-height:1.65;color:var(--text)}
+
+/* Sidebar widgets */
+.widget{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+.widget-head{background:var(--navy);color:#fff;padding:13px 18px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.07em}
+.widget-body{padding:18px}
+.widget-body p{font-size:13.5px;color:var(--text);line-height:1.65;margin-bottom:12px}
+.quick-facts{list-style:none;padding:0;display:flex;flex-direction:column;gap:9px}
+.quick-facts li{display:flex;gap:9px;font-size:13px;color:var(--text);line-height:1.5}
+.quick-facts li::before{content:'✓';color:var(--blue);font-weight:700;flex-shrink:0}
+.related-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:0}
+.related-list a{display:block;padding:11px 0;font-size:13px;color:var(--text);border-bottom:1px solid var(--border);line-height:1.45;transition:color .2s}
+.related-list a:hover{color:var(--blue)}
+.related-list li:last-child a{border-bottom:none}
+.contact-widget{background:var(--navy)}
+.contact-widget .widget-body{color:#fff;text-align:center}
+.contact-widget .widget-body p{color:rgba(255,255,255,.8)}
+.contact-num{font-size:20px;font-weight:700;color:var(--gold);letter-spacing:.02em;margin:8px 0}
+.contact-hours{font-size:12px;color:rgba(255,255,255,.6);margin-bottom:16px;line-height:1.6}
+
+/* Footer */
+.site-footer{background:var(--navy);color:rgba(255,255,255,.6);text-align:center;padding:22px;font-size:13px}
+.site-footer a{color:rgba(255,255,255,.6)}
+
+/* Responsive */
+@media(max-width:900px){
+.content-wrap{grid-template-columns:1fr}
+.sidebar{position:static}
+}
+@media(max-width:600px){
+.container{padding:0 16px}
+.header-cta .btn-outline{display:none}
+.article-hero{padding:38px 0 48px}
+.cta-box{padding:22px}
+.author-box{flex-direction:column}
+}
+</style>
+</head><body>
+<header class="site-header"><div class="container"><div class="header-inner">
+  <a href="https://drshivdiggikar.com/" class="logo">
+    <div class="logo-mark">⚕</div>
+    <div><div class="logo-name">Dr. Shivashankar Diggikar</div><div class="logo-sub">FRCPCH · FRCPI · Neonatologist &amp; Pediatrician</div></div>
+  </a>
+  <div class="header-cta">
+    <a href="https://drshivdiggikar.com/blog/" class="btn btn-outline">← All Articles</a>
+    <a href="https://www.medicoverhospitals.in/doctors/dr-shivashankar-diggikar" class="btn btn-primary">Book Appointment</a>
+  </div>
+</div></div></header>
+<section class="article-hero"><div class="container"><div class="hero-inner">
+  <div class="breadcrumb"><a href="https://drshivdiggikar.com/">Home</a><span>›</span><a href="https://drshivdiggikar.com/blog/">Blog</a><span>›</span><span>Premature Baby Care in Bangalore: 27–32 Weeks Guide</span></div>
+  <div class="category-badge">🏥 Neonatology · MOFU</div>
+  <h1 class="article-title">Premature Baby Care in Bangalore: 27–32 Weeks Guide</h1>
+  <div class="article-meta">
+    <span class="meta-item">👨‍⚕️ Dr. Shivashankar Diggikar, FRCPCH</span>
+    <span class="meta-dot"></span><span class="meta-item">📅 2025</span>
+    <span class="meta-dot"></span><span class="meta-item">⏱ 8 min read</span>
+    <span class="meta-dot"></span><span class="meta-item">📍 Medicover Whitefield, Bangalore</span>
+  </div>
+</div></div></section>
+<div class="container"><div class="content-wrap">
+<article class="article-body">
+
+<p>A premature baby born between 27 and 32 weeks gestation is arriving into the world 8 to 13 weeks early — before their lungs have matured, before they can maintain their own body temperature, and before they have developed the coordination to feed independently.</p>
+<p>Most babies born in this gestational window <strong>do survive and go on to thrive</strong>, particularly when cared for in a well-equipped NICU by a specialist team experienced in neonatal-perinatal medicine.</p>
+
+<h2>What Makes 27–32 Weeks a Critical Window?</h2>
+<p>Every week a baby remains in the womb allows for significant organ development. At <strong>27–28 weeks</strong>, a baby's lungs produce very little surfactant — a slippery coating that keeps the tiny air sacs in the lungs open. Without it, every breath becomes an enormous effort.</p>
+<p>By <strong>30–32 weeks</strong>, lung maturity has improved significantly. The sucking reflex is beginning to emerge, and the baby is increasingly stable.</p>
+
+<h2>Week-by-Week: What to Expect in the NICU</h2>
+<h3>Weeks 27–28: Stabilisation</h3>
+<p>The first priority is stabilisation. Your baby will be placed in a closed incubator. <strong>Surfactant replacement therapy</strong> may be given — a medication administered directly into the airway to help the lungs function. Most babies in this range will require CPAP or mechanical ventilation. Nutrition is delivered through an IV line (TPN). Kangaroo care can often begin within the first 48–72 hours.</p>
+
+<h3>Weeks 29–30: Growing and Breathing</h3>
+<p>Many babies begin to wean off mechanical ventilation to CPAP. <strong>Apnoea of prematurity</strong> — brief pauses in breathing — is common and managed with caffeine therapy. Feeding volumes through the tube increase gradually. Breast milk is profoundly protective against necrotising enterocolitis (NEC).</p>
+
+<h3>Weeks 31–32: The NICU Turns a Corner</h3>
+<p>The <strong>sucking reflex begins to emerge</strong>. Oral feeding attempts begin cautiously. Many babies transition from a closed incubator to an open cot — a moment that often feels significant to parents because it means their baby is maintaining their own warmth.</p>
+
+<h2>Common Challenges & How We Manage Them</h2>
+<ul>
+  <li><strong>Respiratory Distress Syndrome (RDS)</strong> — Surfactant therapy and breathing support. Most babies are weaned off progressively.</li>
+  <li><strong>Apnoea of Prematurity</strong> — Caffeine is safe, well-tolerated, and effective. Continues until ~34–35 weeks corrected age.</li>
+  <li><strong>Feeding Difficulties</strong> — Full oral feeding readiness comes with neurological maturity (~34–36 weeks corrected age).</li>
+  <li><strong>Anaemia</strong> — Iron supplementation starts early; top-up transfusions may be needed.</li>
+  <li><strong>Jaundice</strong> — Extremely common in premature babies. Treated safely with phototherapy.</li>
+  <li><strong>Infections</strong> — Strict hand hygiene and line care protocols are central to prevention.</li>
+</ul>
+
+<h2>What Can Parents Do to Help?</h2>
+<ul>
+  <li>Express breast milk from the earliest possible moment — 8–10 times per day. Even small volumes matter enormously.</li>
+  <li>Practise kangaroo care (skin-to-skin contact) daily. This is clinical therapy, not just comfort.</li>
+  <li>Talk to your baby. Sing. Read aloud. Your voice is familiar and calming.</li>
+  <li>Attend ward rounds and write down your questions. You have every right to understand your baby's care.</li>
+</ul>
+
+<div class="info-box">
+  <div class="info-box-title">📅 When Will My Baby Come Home?</div>
+  <p style="margin:0;font-size:15px">Most babies born at 27–32 weeks are ready for discharge around their original due date. Discharge requires: breathing without support, maintaining own temperature, and taking all feeds by mouth.</p>
+</div>
+
+<div class="cta-box">
+  <h3>📞 Book a Consultation with Dr. Diggikar</h3>
+  <p>Concerned about your child's health? Dr. Shivashankar Diggikar FRCPCH is Bangalore's leading neonatologist &amp; pediatrician at Medicover Whitefield.</p>
+  <a href="https://www.medicoverhospitals.in/doctors/dr-shivashankar-diggikar" class="btn btn-white">Book Online →</a>
+  <div class="cta-meta">
+    <span>📞 +91-9133555335</span>
+    <span>📍 Medicover Whitefield, Bangalore</span>
+    <span>🕐 Mon–Sat: 9:30 AM–2:30 PM</span>
+  </div>
+</div>
+<div class="author-box">
+  <div class="author-avatar">👨‍⚕️</div>
+  <div>
+    <div class="author-name">Dr. Shivashankar Diggikar</div>
+    <div class="author-creds">FRCPCH (UK) · FRCPI (Ireland) · BMJ Editor · 30+ Publications</div>
+    <div class="author-bio">Director of Neonatal-Perinatal Services at Medicover Women &amp; Children Hospital, Whitefield, Bangalore. London-trained neonatologist with 15+ years of NICU and paediatric experience. Consults at Medicover Whitefield (Mon–Sat, 9:30 AM–2:30 PM) and Oyster Mother &amp; Child Hospital, Banaswadi (Mon–Sat, 5:30–7:00 PM).</div>
+  </div>
+</div>
+</article>
+<aside class="sidebar">
+  <div class="widget contact-widget">
+    <div class="widget-head">Book a Consultation</div>
+    <div class="widget-body">
+      <p>Neonatologist &amp; Pediatrician<br>Medicover Whitefield</p>
+      <div class="contact-num">+91-9133555335</div>
+      <div class="contact-hours">Mon–Sat: 9:30 AM – 2:30 PM<br>Eve: 5:30 PM – 7:00 PM</div>
+      <a href="https://www.medicoverhospitals.in/doctors/dr-shivashankar-diggikar" class="btn btn-primary" style="width:100%;justify-content:center">Book Appointment</a>
+    </div>
+  </div>
+  <div class="widget"><div class="widget-head">Quick Facts</div><div class="widget-body"><ul class="quick-facts"><li>NICU = Neonatal Intensive Care Unit</li><li>Surfactant therapy for RDS</li><li>Kangaroo care starts at 27–28 weeks</li><li>Caffeine treats apnoea of prematurity</li><li>Discharge near original due date</li></ul></div></div>
+  <div class="widget"><div class="widget-head">Related Articles</div><div class="widget-body" style="padding:0"><ul class="related-list"><li><a href="#">What Happens in a NICU?</a></li><li><a href="#">Newborn Jaundice — Signs & Treatment</a></li><li><a href="#">Your Baby's First 30 Days</a></li><li><a href="#">Vaccination Schedule 0–2 Years</a></li><li><a href="#">Choosing a Pediatrician in Whitefield</a></li></ul></div></div>
+</aside>
+</div></div>
+<footer class="site-footer"><div class="container"><p>© 2025 Dr. Shivashankar Diggikar · FRCPCH (UK) · FRCPI (Ireland) · Medicover Whitefield, Bangalore · <a href="tel:+919133555335">+91-9133555335</a></p></div></footer>
+</body></html>
