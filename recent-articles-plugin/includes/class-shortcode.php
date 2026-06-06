@@ -117,6 +117,26 @@ class RA_Shortcode {
 		$label_text   = $atts['label']   ?: __( 'LATEST POSTS', 'recent-articles' );
 
 		ob_start();
+		// Inline style scoped to this widget's ID — beats any theme rule regardless
+		// of specificity or load order because an ID selector (0,1,0,0) + class
+		// outweighs any element/class selector the theme can produce without !important.
+		echo '<style>'
+			. '#' . esc_attr( $uid ) . ' .ra-card__title a,'
+			. '#' . esc_attr( $uid ) . ' .ra-card__title a:link,'
+			. '#' . esc_attr( $uid ) . ' .ra-card__title a:visited{'
+			. 'text-decoration:none!important;'
+			. 'border-bottom:0!important;'
+			. 'box-shadow:none!important;'
+			. 'background-image:none!important;'
+			. '}'
+			. '#' . esc_attr( $uid ) . ' .ra-card__title a:hover,'
+			. '#' . esc_attr( $uid ) . ' .ra-card__title a:focus-visible{'
+			. 'text-decoration:underline!important;'
+			. 'text-decoration-color:currentColor!important;'
+			. 'text-decoration-thickness:1.5px!important;'
+			. 'text-underline-offset:3px!important;'
+			. '}'
+			. '</style>';
 		?>
 		<div
 			id="<?php echo esc_attr( $uid ); ?>"

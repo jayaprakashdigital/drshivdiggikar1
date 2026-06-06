@@ -245,10 +245,13 @@
   margin: 0 0 12px;
   letter-spacing: -.01em;
 }
-.ra-wrapper .ra-card__title a,
-.ra-wrapper .ra-card__title a:link,
-.ra-wrapper .ra-card__title a:visited {
-  color: inherit;
+/* Title link — no underline by default, underline only on hover.
+   The shortcode also injects an ID-scoped <style> to override themes
+   that apply underlines with high specificity or !important. */
+.ra-wrapper .ra-card .ra-card__body .ra-card__title a,
+.ra-wrapper .ra-card .ra-card__body .ra-card__title a:link,
+.ra-wrapper .ra-card .ra-card__body .ra-card__title a:visited {
+  color: inherit !important;
   text-decoration: none !important;
   text-decoration-line: none !important;
   border-bottom: 0 none !important;
@@ -257,11 +260,10 @@
   transition: color var(--ra-transition);
   text-underline-offset: 3px;
 }
-.ra-wrapper .ra-card__title a:hover,
-.ra-wrapper .ra-card__title a:focus-visible {
-  color: var(--ra-avatar-bg);
+.ra-wrapper .ra-card .ra-card__body .ra-card__title a:hover,
+.ra-wrapper .ra-card .ra-card__body .ra-card__title a:focus-visible {
+  color: var(--ra-avatar-bg) !important;
   text-decoration: underline !important;
-  text-decoration-line: underline !important;
   text-decoration-color: currentColor !important;
   text-decoration-thickness: 1.5px;
   outline: none;
