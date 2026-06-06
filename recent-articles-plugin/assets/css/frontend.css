@@ -31,12 +31,61 @@
 .ra-wrapper *::before,
 .ra-wrapper *::after { box-sizing: inherit; }
 
+.ra-wrapper .screen-reader-text {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0);
+  white-space: nowrap; border: 0;
+}
+
 /* ── Section header ─────────────────────────────────────────── */
 .ra-section-header {
-  margin-bottom: 28px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 32px;
 }
 
 .ra-section-header__left { min-width: 0; }
+
+/* ── Date filter dropdown ───────────────────────────────────── */
+.ra-date-filter {
+  position: relative;
+  flex-shrink: 0;
+}
+.ra-date-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px 38px 10px 18px;
+  border: 1.5px solid var(--ra-border);
+  border-radius: 999px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--ra-font);
+  color: var(--ra-heading-color);
+  cursor: pointer;
+  line-height: 1.2;
+  transition: border-color var(--ra-transition), color var(--ra-transition);
+}
+.ra-date-select:hover,
+.ra-date-select:focus-visible {
+  border-color: var(--ra-heading-color);
+  outline: none;
+}
+.ra-date-caret {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+  color: var(--ra-heading-color);
+}
 
 .ra-label {
   font-size: 12px;
@@ -67,42 +116,6 @@
   color: var(--ra-heading-color);
   line-height: 1.1;
   letter-spacing: -.02em;
-}
-
-/* ── Category filter bar ────────────────────────────────────── */
-.ra-filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 0 0 32px;
-}
-
-.ra-filter-btn {
-  padding: 8px 20px;
-  border: 1.5px solid var(--ra-border);
-  border-radius: 999px;
-  background: #fff;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--ra-body-color);
-  cursor: pointer;
-  transition: border-color var(--ra-transition), color var(--ra-transition),
-              background var(--ra-transition);
-  font-family: var(--ra-font);
-  line-height: 1;
-  white-space: nowrap;
-}
-.ra-filter-btn:hover,
-.ra-filter-btn:focus-visible {
-  border-color: var(--ra-heading-color);
-  color: var(--ra-heading-color);
-  background: #fff;
-  outline: none;
-}
-.ra-filter-btn.is-active {
-  background: var(--ra-heading-color);
-  border-color: var(--ra-heading-color);
-  color: #fff;
 }
 
 /* ── Grid ───────────────────────────────────────────────────── */
@@ -232,17 +245,25 @@
   margin: 0 0 12px;
   letter-spacing: -.01em;
 }
-.ra-card__title a {
+.ra-wrapper .ra-card__title a,
+.ra-wrapper .ra-card__title a:link,
+.ra-wrapper .ra-card__title a:visited {
   color: inherit;
-  text-decoration: none;
-  transition: color var(--ra-transition), text-decoration-color var(--ra-transition);
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  border-bottom: 0 none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+  transition: color var(--ra-transition);
   text-underline-offset: 3px;
 }
-.ra-card__title a:hover,
-.ra-card__title a:focus-visible {
+.ra-wrapper .ra-card__title a:hover,
+.ra-wrapper .ra-card__title a:focus-visible {
   color: var(--ra-avatar-bg);
-  text-decoration: underline;
-  text-decoration-color: currentColor;
+  text-decoration: underline !important;
+  text-decoration-line: underline !important;
+  text-decoration-color: currentColor !important;
+  text-decoration-thickness: 1.5px;
   outline: none;
 }
 
@@ -402,10 +423,13 @@
 @media (max-width: 639px) {
   .ra-wrapper { padding: 0 16px; }
 
-  .ra-section-header { margin-bottom: 20px; }
-
-  .ra-filter-bar { margin-bottom: 24px; gap: 6px; }
-  .ra-filter-btn { padding: 7px 14px; font-size: 12px; }
+  .ra-section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+  .ra-date-select { padding: 9px 36px 9px 16px; font-size: 13px; }
 
   .ra-grid { gap: 20px; }
 

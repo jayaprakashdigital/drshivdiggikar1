@@ -1,23 +1,19 @@
 /**
  * Recent Articles — Frontend JS
- * Category filter + AJAX load-more.
+ * Date filter + AJAX load-more.
  */
 ( function ( $, cfg ) {
 	'use strict';
 
 	if ( ! cfg || ! cfg.ajaxUrl ) { return; }
 
-	$( document ).on( 'click.raFilter', '.ra-wrapper .ra-filter-btn', function () {
-		var $btn     = $( this );
-		var $wrapper = $btn.closest( '.ra-wrapper' );
-		var category = String( $btn.data( 'category' ) || '' );
+	// Date filter dropdown change → reset to page 1, replace grid.
+	$( document ).on( 'change.raDate', '.ra-wrapper .ra-date-select', function () {
+		var $sel     = $( this );
+		var $wrapper = $sel.closest( '.ra-wrapper' );
+		var value    = String( $sel.val() || '' );
 
-		$wrapper.find( '.ra-filter-btn' )
-			.removeClass( 'is-active' )
-			.attr( 'aria-selected', 'false' );
-		$btn.addClass( 'is-active' ).attr( 'aria-selected', 'true' );
-
-		$wrapper.attr( 'data-category', category );
+		$wrapper.attr( 'data-date', value );
 		$wrapper.find( '.ra-load-more-btn' )
 			.removeClass( 'is-loading' )
 			.prop( 'disabled', false )
@@ -28,6 +24,7 @@
 		fetchPosts( $wrapper, 1, true );
 	} );
 
+	// Load More.
 	$( document ).on( 'click.raLoadMore', '.ra-wrapper .ra-load-more-btn', function () {
 		var $btn     = $( this );
 		var $wrapper = $btn.closest( '.ra-wrapper' );
@@ -53,6 +50,7 @@
 			orderby:  $wrapper.attr( 'data-orderby' )  || 'date',
 			order:    $wrapper.attr( 'data-order' )   || 'DESC',
 			featured: $wrapper.attr( 'data-featured' ) || '0',
+			date:     $wrapper.attr( 'data-date' )    || '',
 			page:     page
 		} )
 		.done( function ( res ) {
@@ -61,7 +59,9 @@
 				return;
 			}
 			if ( ! res.data.html ) {
-				if ( replace ) { $grid.empty(); }
+				if ( replace ) { $grid.empty().append(
+					'<p class="ra-no-posts">' + cfg.noPostsTxt + '</p>'
+				); }
 				setNoMore( $btn, cfg.noMoreTxt );
 				return;
 			}

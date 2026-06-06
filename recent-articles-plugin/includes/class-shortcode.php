@@ -41,6 +41,7 @@ class RA_Shortcode {
 			'featured'    => 'no',
 			'heading'     => '',
 			'label'       => '',
+			'date'        => '',
 		];
 
 		$atts = shortcode_atts( $defaults, $atts, 'recent_articles' );
@@ -58,6 +59,7 @@ class RA_Shortcode {
 			'featured'    => filter_var( $atts['featured'], FILTER_VALIDATE_BOOLEAN ),
 			'heading'     => sanitize_text_field( $atts['heading'] ),
 			'label'       => sanitize_text_field( $atts['label'] ),
+			'date'        => sanitize_text_field( $atts['date'] ),
 		];
 	}
 
@@ -93,6 +95,15 @@ class RA_Shortcode {
 			];
 		}
 
+		if ( ! empty( $atts['date'] ) ) {
+			[ $year, $month ] = self::parse_date_filter( (string) $atts['date'] );
+			if ( $year && $month ) {
+				$args['date_query'] = [
+					[ 'year' => $year, 'month' => $month ],
+				];
+			}
+		}
+
 		return $args;
 	}
 
@@ -116,6 +127,7 @@ class RA_Shortcode {
 			data-orderby="<?php echo esc_attr( $atts['orderby'] ); ?>"
 			data-order="<?php echo esc_attr( $atts['order'] ); ?>"
 			data-featured="<?php echo esc_attr( $atts['featured'] ? '1' : '0' ); ?>"
+			data-date=""
 			data-nonce="<?php echo esc_attr( wp_create_nonce( 'ra_load_more' ) ); ?>"
 			role="region"
 			aria-label="<?php echo esc_attr( $heading_text ); ?>"
@@ -125,9 +137,8 @@ class RA_Shortcode {
 					<div class="ra-label"><?php echo esc_html( $label_text ); ?></div>
 					<h2 class="ra-heading"><?php echo esc_html( $heading_text ); ?></h2>
 				</div>
+				<?php self::render_date_filter(); ?>
 			</div>
-
-			<?php self::render_filter_tabs( $atts['category'] ); ?>
 
 			<div class="ra-grid" role="list" aria-live="polite" aria-relevant="additions">
 				<?php
@@ -163,42 +174,53 @@ class RA_Shortcode {
 		return ob_get_clean();
 	}
 
-	// ── Category filter tabs ──────────────────────────────────────────────
+	// ── Date filter (year-month dropdown) ─────────────────────────────────
 
-	private static function render_filter_tabs( string $active_cat ): void {
-		$terms = get_categories( [
-			'hide_empty' => true,
-			'orderby'    => 'name',
-			'order'      => 'ASC',
-		] );
+	private static function render_date_filter(): void {
+		global $wpdb;
+		$rows = $wpdb->get_results(
+			"SELECT DISTINCT YEAR(post_date) AS y, MONTH(post_date) AS m
+			 FROM {$wpdb->posts}
+			 WHERE post_type = 'post' AND post_status = 'publish'
+			 ORDER BY y DESC, m DESC
+			 LIMIT 36"
+		);
 
-		if ( empty( $terms ) || is_wp_error( $terms ) ) {
+		if ( empty( $rows ) ) {
 			return;
 		}
 		?>
-		<div class="ra-filter-bar" role="tablist" aria-label="<?php esc_attr_e( 'Filter by category', 'recent-articles' ); ?>">
-			<button
-				type="button"
-				class="ra-filter-btn<?php echo empty( $active_cat ) ? ' is-active' : ''; ?>"
-				data-category=""
-				role="tab"
-				aria-selected="<?php echo empty( $active_cat ) ? 'true' : 'false'; ?>"
-			>
-				<?php esc_html_e( 'All', 'recent-articles' ); ?>
-			</button>
-			<?php foreach ( $terms as $term ) : ?>
-			<button
-				type="button"
-				class="ra-filter-btn<?php echo ( sanitize_title( $active_cat ) === $term->slug ) ? ' is-active' : ''; ?>"
-				data-category="<?php echo esc_attr( $term->slug ); ?>"
-				role="tab"
-				aria-selected="<?php echo ( sanitize_title( $active_cat ) === $term->slug ) ? 'true' : 'false'; ?>"
-			>
-				<?php echo esc_html( $term->name ); ?>
-			</button>
-			<?php endforeach; ?>
+		<div class="ra-date-filter">
+			<label class="screen-reader-text" for="ra-date-select-<?php echo esc_attr( wp_unique_id() ); ?>">
+				<?php esc_html_e( 'Filter by date', 'recent-articles' ); ?>
+			</label>
+			<select class="ra-date-select" aria-label="<?php esc_attr_e( 'Filter by date', 'recent-articles' ); ?>">
+				<option value=""><?php esc_html_e( 'All Dates', 'recent-articles' ); ?></option>
+				<?php foreach ( $rows as $row ) :
+					$y = (int) $row->y;
+					$m = (int) $row->m;
+					if ( $y < 1970 || $m < 1 || $m > 12 ) { continue; }
+					$value = sprintf( '%04d-%02d', $y, $m );
+					$label = date_i18n( 'F Y', mktime( 0, 0, 0, $m, 1, $y ) );
+					?>
+					<option value="<?php echo esc_attr( $value ); ?>"><?php echo esc_html( $label ); ?></option>
+				<?php endforeach; ?>
+			</select>
+			<svg class="ra-date-caret" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
 		</div>
 		<?php
+	}
+
+	public static function parse_date_filter( string $raw ): array {
+		if ( ! preg_match( '/^(\d{4})-(\d{1,2})$/', $raw, $m ) ) {
+			return [ 0, 0 ];
+		}
+		$year  = (int) $m[1];
+		$month = (int) $m[2];
+		if ( $year < 1970 || $month < 1 || $month > 12 ) {
+			return [ 0, 0 ];
+		}
+		return [ $year, $month ];
 	}
 
 	// ── Single card ───────────────────────────────────────────────────────

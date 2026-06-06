@@ -35,6 +35,7 @@ class RA_Assets {
 			'loadMoreTxt' => __( 'Load More', 'recent-articles' ),
 			'noMoreTxt'   => __( 'No more posts', 'recent-articles' ),
 			'errorTxt'    => __( 'Something went wrong. Please try again.', 'recent-articles' ),
+			'noPostsTxt'  => __( 'No posts found.', 'recent-articles' ),
 		] );
 	}
 

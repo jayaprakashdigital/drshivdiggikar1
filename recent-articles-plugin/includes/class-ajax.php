@@ -25,6 +25,7 @@ class RA_Ajax {
 			'orderby'   => in_array( $orderby_raw, [ 'date', 'title', 'rand', 'menu_order' ], true ) ? $orderby_raw : 'date',
 			'order'     => in_array( $order_raw, [ 'ASC', 'DESC' ], true ) ? $order_raw : 'DESC',
 			'featured'  => ! empty( $_POST['featured'] ) && '1' === (string) $_POST['featured'],
+			'date'      => isset( $_POST['date'] ) ? sanitize_text_field( wp_unslash( $_POST['date'] ) ) : '',
 			'load_more' => true,
 		];
 
