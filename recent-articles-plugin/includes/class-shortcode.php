@@ -125,16 +125,9 @@ class RA_Shortcode {
 					<div class="ra-label"><?php echo esc_html( $label_text ); ?></div>
 					<h2 class="ra-heading"><?php echo esc_html( $heading_text ); ?></h2>
 				</div>
-				<a href="<?php echo esc_url( get_permalink( get_option( 'page_for_posts' ) ) ?: home_url( '/blog/' ) ); ?>"
-				   class="ra-view-all"
-				   aria-label="<?php esc_attr_e( 'View all articles', 'recent-articles' ); ?>">
-					<?php esc_html_e( 'View All', 'recent-articles' ); ?> <span aria-hidden="true">&rarr;</span>
-				</a>
 			</div>
 
-			<?php if ( $atts['show_filter'] ) : ?>
-				<?php self::render_filter_tabs( $atts['category'] ); ?>
-			<?php endif; ?>
+			<?php self::render_filter_tabs( $atts['category'] ); ?>
 
 			<div class="ra-grid" role="list" aria-live="polite" aria-relevant="additions">
 				<?php
@@ -225,11 +218,8 @@ class RA_Shortcode {
 			? wp_trim_words( $custom_excerpt, 26, '&hellip;' )
 			: wp_trim_words( get_the_excerpt( $post_id ), 20, '&hellip;' );
 
-		$date_iso = get_the_date( 'c', $post_id );
-
-		// Reading time — custom or auto.
-		$custom_rt = (int) RA_Meta_Box::get( $post_id, 'read_time', 0 );
-		$read_time = $custom_rt > 0 ? $custom_rt : self::estimate_read_time( $post->post_content );
+		$date_iso     = get_the_date( 'c', $post_id );
+		$date_display = get_the_date( 'M d, Y', $post_id );
 
 		// Category.
 		$cats     = get_the_category( $post_id );
@@ -280,9 +270,9 @@ class RA_Shortcode {
 					<?php if ( $cat_name ) : ?>
 						<span class="ra-card__cat"><?php echo esc_html( strtoupper( $cat_name ) ); ?></span>
 					<?php endif; ?>
-					<span class="ra-card__read-time" aria-label="<?php echo esc_attr( sprintf( /* translators: %d = minutes */ __( '%d minute read', 'recent-articles' ), $read_time ) ); ?>">
-						<svg class="ra-icon-clock" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-						<?php echo esc_html( sprintf( /* translators: %d = minutes */ __( '%d min', 'recent-articles' ), $read_time ) ); ?>
+					<span class="ra-card__date" aria-label="<?php echo esc_attr( sprintf( /* translators: %s = formatted date */ __( 'Published %s', 'recent-articles' ), $date_display ) ); ?>">
+						<svg class="ra-icon-cal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+						<?php echo esc_html( $date_display ); ?>
 					</span>
 				</div>
 
@@ -316,11 +306,6 @@ class RA_Shortcode {
 	}
 
 	// ── Helpers ───────────────────────────────────────────────────────────
-
-	private static function estimate_read_time( string $content ): int {
-		$words = str_word_count( wp_strip_all_tags( $content ) );
-		return max( 1, (int) round( $words / 200 ) );
-	}
 
 	private static function get_initials( string $name ): string {
 		$parts    = preg_split( '/\s+/', trim( $name ) ) ?: [];
