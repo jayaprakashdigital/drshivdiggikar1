@@ -147,7 +147,7 @@ class RA_Shortcode {
 			data-orderby="<?php echo esc_attr( $atts['orderby'] ); ?>"
 			data-order="<?php echo esc_attr( $atts['order'] ); ?>"
 			data-featured="<?php echo esc_attr( $atts['featured'] ? '1' : '0' ); ?>"
-			data-date=""
+			data-date="<?php echo esc_attr( $atts['date'] ); ?>"
 			data-nonce="<?php echo esc_attr( wp_create_nonce( 'ra_load_more' ) ); ?>"
 			role="region"
 			aria-label="<?php echo esc_attr( $heading_text ); ?>"
@@ -157,7 +157,7 @@ class RA_Shortcode {
 					<div class="ra-label"><?php echo esc_html( $label_text ); ?></div>
 					<h2 class="ra-heading"><?php echo esc_html( $heading_text ); ?></h2>
 				</div>
-				<?php self::render_date_filter(); ?>
+				<?php self::render_date_filter( (string) $atts['date'] ); ?>
 			</div>
 
 			<div class="ra-grid" role="list" aria-live="polite" aria-relevant="additions">
@@ -176,8 +176,10 @@ class RA_Shortcode {
 				?>
 			</div>
 
-			<?php if ( $atts['load_more'] && ! empty( $query ) && $query->max_num_pages > 1 ) : ?>
-			<div class="ra-load-more-wrap">
+			<?php if ( $atts['load_more'] ) :
+				$has_more_init = ! empty( $query ) && $query->max_num_pages > 1;
+				?>
+			<div class="ra-load-more-wrap<?php echo $has_more_init ? '' : ' is-hidden'; ?>">
 				<button
 					class="ra-load-more-btn"
 					type="button"
@@ -196,7 +198,7 @@ class RA_Shortcode {
 
 	// ── Date filter (year-month dropdown) ─────────────────────────────────
 
-	private static function render_date_filter(): void {
+	private static function render_date_filter( string $active = '' ): void {
 		global $wpdb;
 		$rows = $wpdb->get_results(
 			"SELECT DISTINCT YEAR(post_date) AS y, MONTH(post_date) AS m
@@ -209,13 +211,15 @@ class RA_Shortcode {
 		if ( empty( $rows ) ) {
 			return;
 		}
+
+		$select_id = 'ra-date-select-' . wp_unique_id();
 		?>
 		<div class="ra-date-filter">
-			<label class="screen-reader-text" for="ra-date-select-<?php echo esc_attr( wp_unique_id() ); ?>">
+			<label class="screen-reader-text" for="<?php echo esc_attr( $select_id ); ?>">
 				<?php esc_html_e( 'Filter by date', 'recent-articles' ); ?>
 			</label>
-			<select class="ra-date-select" aria-label="<?php esc_attr_e( 'Filter by date', 'recent-articles' ); ?>">
-				<option value=""><?php esc_html_e( 'All Dates', 'recent-articles' ); ?></option>
+			<select id="<?php echo esc_attr( $select_id ); ?>" class="ra-date-select" aria-label="<?php esc_attr_e( 'Filter by date', 'recent-articles' ); ?>">
+				<option value="" <?php selected( '', $active ); ?>><?php esc_html_e( 'All Dates', 'recent-articles' ); ?></option>
 				<?php foreach ( $rows as $row ) :
 					$y = (int) $row->y;
 					$m = (int) $row->m;
@@ -223,7 +227,7 @@ class RA_Shortcode {
 					$value = sprintf( '%04d-%02d', $y, $m );
 					$label = date_i18n( 'F Y', mktime( 0, 0, 0, $m, 1, $y ) );
 					?>
-					<option value="<?php echo esc_attr( $value ); ?>"><?php echo esc_html( $label ); ?></option>
+					<option value="<?php echo esc_attr( $value ); ?>" <?php selected( $value, $active ); ?>><?php echo esc_html( $label ); ?></option>
 				<?php endforeach; ?>
 			</select>
 			<svg class="ra-date-caret" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>

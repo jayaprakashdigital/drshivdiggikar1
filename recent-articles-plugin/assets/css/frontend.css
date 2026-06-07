@@ -363,6 +363,7 @@
   justify-content: center;
   margin-top: 44px;
 }
+.ra-load-more-wrap.is-hidden { display: none; }
 
 .ra-load-more-btn {
   display: inline-flex;
